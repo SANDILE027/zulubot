@@ -1,0 +1,33 @@
+{
+  "source": "Proposed Student guide Zulu and English 4 CHM111(2).pdf",
+  "module_title": "General Chemistry",
+  "module_code": "4CHM111",
+  "module_credits": "16",
+  "level_of_study": "1st year",
+  "notional_hours": "150",
+  "nqf_level": "5",
+  "prerequisites": "NOT SPECIFIED",
+  "lecturers": [
+    "Mr Els"
+  ],
+  "module_outcomes": [
+    "Nokuqonda isakhiwo se-athomu, ulumbano ngokwamakhemikhali olwenzeka phakathi kwama-athomu kanye nezinhlobo zolumbanokhemikhali ezenzekayo.",
+    "Nolwazi lokubhala amafomula amakhemikhali, ukulinganisa izibalokulinganisa, kanye nokusebenzisa amakhonsepthi enaninhlayiya eqoqweni ezibalweni zamakhemikhali kulumbanokhemikhali lobungakosisindo kanye nolumbanokhemikhali kwingxubekuncibilika.",
+    "Nokuqonda ukuhlelwa kwemetha kanye nezingxenye zesisekelo semetha ezigabeni eziqinile, eziwuketshezi kanye neziyigesi kanye nezingxenye zengxubekuncibilika.",
+    "Ukuqonda okuphelele kwemithetho eyisisekelo soguqukomakhemikhali ngokushisa, isimokulingana samakhemikhali, ichemistry kagesi kanye nomumo wama- esidi, ama-base kanye nosawoti, kanye nokusebenzisa lolo lwazi uma kwenziwa ama-acid base titration.",
+    "Ukukwazi ukukhombisa amakhono ahlukene nalula elabhorethri, okuhlanganisa ukulinganisa kanye nokulinganisa"
+  ],
+  "assessment_activities": [],
+  "contact_emails": [
+    "ElsS@unizulu.ac.za",
+    "KhumaloB@unizulu.ac.za"
+  ],
+  "consultation_times": "Izinsuku esontweni Izikhathi Izindawo zokubonisana",
+  "module_purpose": "Inhloso yale mojuli ukunikeza abafundi isisekelo esidingekayo ku- chemistry uma beqhubeka nezifundo ze-chemistry ehlaziyayo, engenakhabhoni, enekhabhoni kanye nephysical chemistry.",
+  "prescribed_readings": [
+    "Houghton Milling Company, Boston, New York.  Chang, R & Overby, J. General Chemistry: 6th edition: The"
+  ],
+  "recommended_readings": [
+    "Pearson Prentice Hall. (Additional)"
+  ]
+}

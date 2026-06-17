@@ -1,0 +1,3522 @@
+[
+  {
+    "id": "3BFPT1",
+    "faculty": "Faculty of Education",
+    "department": "School of Education",
+    "programme": "B Ed in Foundation Phase Teaching",
+    "code": "3BFPT1",
+    "qualification": "Bachelor of Education",
+    "aps": 26,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "IsiZulu",
+        "min_level": 4,
+        "min_pct": 40
+      },
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 40
+      },
+      {
+        "name": "Mathematics or Mathematical Literacy",
+        "min_level": 3,
+        "min_pct": 30
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "NSC endorsement with: | | IsiZulu HL4 and | Engl FAL4 | Maths 3 or Maths Literacy 4"
+  },
+  {
+    "id": "3BDIP1",
+    "faculty": "Faculty of Education",
+    "department": "School of Education",
+    "programme": "B Ed Intermediate Phase Teaching: Language & MSTE",
+    "code": "3BDIP1",
+    "qualification": "Bachelor of Education",
+    "aps": 26,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "IsiZulu",
+        "min_level": 4,
+        "min_pct": 40
+      },
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 40
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 4,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 30
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "NSC endorsement with: | | IsiZulu HL 4 and | English FAL 4 | Either Mathematics 4 | Physical Science 3 OR | Physical Science 4 | Mathematics 3"
+  },
+  {
+    "id": "3BDIP2",
+    "faculty": "Faculty of Education",
+    "department": "School of Education",
+    "programme": "B Ed Intermediate Phase Teaching: Lang & Humanities",
+    "code": "3BDIP2",
+    "qualification": "Bachelor of Education",
+    "aps": 26,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "IsiZulu",
+        "min_level": 4,
+        "min_pct": 40
+      },
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 40
+      },
+      {
+        "name": "Geography",
+        "min_level": 4,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "NSC endorsement with: | | IsiZulu HL 4 and | Engl FAL 4 plus | Geog 4 and Hist 4"
+  },
+  {
+    "id": "FCAL-higher-certificate-accountancy",
+    "faculty": "Faculty of Commerce, Administration & Law",
+    "department": "Commerce, Administration & Law",
+    "programme": "Higher Certificate (Accountancy)",
+    "code": "FCAL-higher-certificate-accountancy",
+    "qualification": "Higher Certificate",
+    "aps": 22,
+    "aps_unknown": false,
+    "duration": 1,
+    "nqf": 5,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 30
+      },
+      {
+        "name": "Mathematics or Mathematical Literacy",
+        "min_level": 3,
+        "min_pct": 30
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "English: Level 3 or SG level D or HG level E. Mathematics: Maths level 3 or SG level D or HG level E or Math Lit level 4"
+  },
+  {
+    "id": "FCAL-higher-certificate-marketing",
+    "faculty": "Faculty of Commerce, Administration & Law",
+    "department": "Commerce, Administration & Law",
+    "programme": "Higher Certificate (Marketing)",
+    "code": "FCAL-higher-certificate-marketing",
+    "qualification": "Higher Certificate",
+    "aps": 22,
+    "aps_unknown": false,
+    "duration": 1,
+    "nqf": 5,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 30
+      },
+      {
+        "name": "Mathematics or Mathematical Literacy",
+        "min_level": 3,
+        "min_pct": 30
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "English: Level 3 or SG level D or HG level E. Mathematics: Maths level 3 or SG level D or HG level E or Math Lit level 4"
+  },
+  {
+    "id": "FCAL-diploma-logistics-management",
+    "faculty": "Faculty of Commerce, Administration & Law",
+    "department": "Commerce, Administration & Law",
+    "programme": "Diploma (Logistics Management)",
+    "code": "FCAL-diploma-logistics-management",
+    "qualification": "Diploma",
+    "aps": 24,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 6,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 30
+      },
+      {
+        "name": "Mathematics or Mathematical Literacy",
+        "min_level": 3,
+        "min_pct": 30
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "English: Level 3 or SG level D or HG level E. Mathematics: Maths level 3 or SG level D or HG level E or Math Lit level 4"
+  },
+  {
+    "id": "FCAL-diploma-management-of-co-operatives",
+    "faculty": "Faculty of Commerce, Administration & Law",
+    "department": "Commerce, Administration & Law",
+    "programme": "Diploma (Management of Co- operatives)",
+    "code": "FCAL-diploma-management-of-co-operatives",
+    "qualification": "Diploma",
+    "aps": 24,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 6,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 30
+      },
+      {
+        "name": "Mathematics or Mathematical Literacy",
+        "min_level": 3,
+        "min_pct": 30
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "English: Level 3 or SG level D or HG level E. Mathematics: Maths level 3 or SG level D or HG level E or Math Lit level 4"
+  },
+  {
+    "id": "FCAL-diploma-transport-management",
+    "faculty": "Faculty of Commerce, Administration & Law",
+    "department": "Commerce, Administration & Law",
+    "programme": "Diploma (Transport Management)",
+    "code": "FCAL-diploma-transport-management",
+    "qualification": "Diploma",
+    "aps": 24,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 6,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 30
+      },
+      {
+        "name": "Mathematics or Mathematical Literacy",
+        "min_level": 3,
+        "min_pct": 30
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "English: Level 3 or SG level D or HG level E. Mathematics: Maths level 3 or SG level D or HG level E or Math Lit level 4"
+  },
+  {
+    "id": "FCAL-bachelor-of-commerce-4-year-extended-programme",
+    "faculty": "Faculty of Commerce, Administration & Law",
+    "department": "Commerce, Administration & Law",
+    "programme": "Bachelor of Commerce 4-Year Extended Programme",
+    "code": "FCAL-bachelor-of-commerce-4-year-extended-programme",
+    "qualification": "Bachelor of Commerce",
+    "aps": 26,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 30
+      },
+      {
+        "name": "Mathematics or Mathematical Literacy",
+        "min_level": 3,
+        "min_pct": 30
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "English: Level 3 or SG level D or HG level E. Mathematics: Maths level 3 or SG level D or HG level E or Math Lit level 4"
+  },
+  {
+    "id": "FCAL-bachelor-of-commerce",
+    "faculty": "Faculty of Commerce, Administration & Law",
+    "department": "Commerce, Administration & Law",
+    "programme": "Bachelor of Commerce",
+    "code": "FCAL-bachelor-of-commerce",
+    "qualification": "Bachelor of Commerce",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 40
+      },
+      {
+        "name": "Mathematics or Mathematical Literacy",
+        "min_level": 3,
+        "min_pct": 30
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "English: Level 4 or SG level C or HG level D. Mathematics: Maths level 3 or SG level D or HG level E or Math Lit level 6"
+  },
+  {
+    "id": "FCAL-bachelor-of-commerce-accounting",
+    "faculty": "Faculty of Commerce, Administration & Law",
+    "department": "Commerce, Administration & Law",
+    "programme": "Bachelor of Commerce (Accounting)",
+    "code": "FCAL-bachelor-of-commerce-accounting",
+    "qualification": "Bachelor of Commerce",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 40
+      },
+      {
+        "name": "Mathematics or Mathematical Literacy",
+        "min_level": 4,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "English: Level 4 or SG level C or HG level D. Mathematics: Maths level 4 or SG level C or HG level D"
+  },
+  {
+    "id": "FCAL-bachelor-of-commerce-accounting-science",
+    "faculty": "Faculty of Commerce, Administration & Law",
+    "department": "Commerce, Administration & Law",
+    "programme": "Bachelor of Commerce (Accounting Science)",
+    "code": "FCAL-bachelor-of-commerce-accounting-science",
+    "qualification": "Bachelor of Commerce",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 40
+      },
+      {
+        "name": "Mathematics or Mathematical Literacy",
+        "min_level": 4,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "English: Level 4 or SG level C or HG level D. Mathematics: Maths level 4 or SG level C or HG level D"
+  },
+  {
+    "id": "FCAL-bachelor-of-commerce-management-information-systems",
+    "faculty": "Faculty of Commerce, Administration & Law",
+    "department": "Commerce, Administration & Law",
+    "programme": "Bachelor of Commerce (Management Information Systems)",
+    "code": "FCAL-bachelor-of-commerce-management-information-systems",
+    "qualification": "Bachelor of Commerce",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 40
+      },
+      {
+        "name": "Mathematics or Mathematical Literacy",
+        "min_level": 4,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "English: Level 4 or SG level C or HG level D. Mathematics: Maths level 4 or SG level C or HG level D"
+  },
+  {
+    "id": "FCAL-bachelor-of-administration",
+    "faculty": "Faculty of Commerce, Administration & Law",
+    "department": "Commerce, Administration & Law",
+    "programme": "Bachelor of Administration",
+    "code": "FCAL-bachelor-of-administration",
+    "qualification": "Bachelor of Administration",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 40
+      },
+      {
+        "name": "Mathematics or Mathematical Literacy",
+        "min_level": 3,
+        "min_pct": 30
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "English: Level 4 or SG level D or HG level E. Mathematics: Maths level 3 or SG level D or HG level E or Math Lit level 4"
+  },
+  {
+    "id": "FCAL-bachelor-of-laws",
+    "faculty": "Faculty of Commerce, Administration & Law",
+    "department": "Commerce, Administration & Law",
+    "programme": "Bachelor of Laws",
+    "code": "FCAL-bachelor-of-laws",
+    "qualification": "Bachelor of Laws",
+    "aps": 30,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 40
+      },
+      {
+        "name": "Mathematics or Mathematical Literacy",
+        "min_level": 3,
+        "min_pct": 30
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "English: Level 4 or SG level C or HG level D. Mathematics: Maths level 3 or SG level D or HG level E or Math Lit level 4"
+  },
+  {
+    "id": "1BDEG1",
+    "faculty": "Faculty of Humanities & Social Sciences",
+    "department": "Various",
+    "programme": "Bachelor of Arts: Dual Major",
+    "code": "1BDEG1",
+    "qualification": "Bachelor of Arts",
+    "aps": 26,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [
+      "Anthropology & History",
+      "Linguistics & English",
+      "Geography& History",
+      "Geography& Tourism",
+      "History & IsiZulu",
+      "Philosophy & Psychology"
+    ],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 2,
+        "min_pct": 20
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "1) A National Senior Certificate (NSC) with an achievement rating of 4 (moderate Achievement, 50-59%) or better in 5 recognized NSC 20- credit subjects; and an achievement rating of 4 (50-59%) in English as a Home Language. 2) Refer to the faculty requirements"
+  },
+  {
+    "id": "1DDEG1",
+    "faculty": "Faculty of Humanities & Social Sciences",
+    "department": "Anthropology and Development Studies",
+    "programme": "Bachelor of Arts in Development Studies",
+    "code": "1DDEG1",
+    "qualification": "Bachelor of Arts",
+    "aps": 26,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "1) A National Senior Certificate (NSC) with an achievement rating of 4 (moderate Achievement, 40-49%) or better in 5 recognized NSC 20- credit subjects; an achievement rating of 4 (50- 59%) an achievement rating of English as First Additional Language (FAL) or 4 (50-59%) in English as a Home Language (as per faculty rule)."
+  },
+  {
+    "id": "1CADP1",
+    "faculty": "Faculty of Humanities & Social Sciences",
+    "department": "Communication Science",
+    "programme": "Bachelor of Arts: Intercultural Communication 050101",
+    "code": "1CADP1",
+    "qualification": "Bachelor of Arts",
+    "aps": 0,
+    "aps_unknown": true,
+    "duration": 1,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "Students who have completed the following qualifications: • An appropriate Diploma at NQF Level 6, • Bachelors’ degree at NQF Level 7 47 UNDERGRADUATE FACULTY HANDBOOK-2026 An equivalent qualification at NQF Level 7 for vocational or professional preparation or specialization for bachelor’s degree graduates or diplomates by offering them an intensive, focused and applied specialization which meets the requirements of a specific niche in the labour market. This is subject to the approval by the Head of the Department of Communication Science. Moreover, the department may provide entry-level learners admission through the recognition of Prior Learning (RPL) procedures of the University of Zululand. A lso, refer to the Faculty requirements"
+  },
+  {
+    "id": "1CDEG1",
+    "faculty": "Faculty of Humanities & Social Sciences",
+    "department": "Communication Science",
+    "programme": "Bachelor of Arts: Intercultural Communication 050101",
+    "code": "1CDEG1",
+    "qualification": "Bachelor of Arts",
+    "aps": 26,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "An NSC with an achievement rating of 4 (50%) in 5 recognised NSC 20 credit subjects (matric exemption); and an achievement rating of 4 (50%) in English as First Additional Language (FAL), or 4 (50%) in English as Home Language. Minimum entry points: 26 Also, refer to the faculty requirements"
+  },
+  {
+    "id": "1UDEG2",
+    "faculty": "Faculty of Humanities & Social Sciences",
+    "department": "Creative Arts",
+    "programme": "Bachelor of Arts in Drama, Theatre and Performance",
+    "code": "1UDEG2",
+    "qualification": "Bachelor of Arts",
+    "aps": 26,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 40
+      },
+      {
+        "name": "Visual Arts or Dramatic Arts",
+        "min_level": 4,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "1) A National Senior Certificate (NSC) with an achievement rating of 4 (moderate Achievement, 50-59%) or better in 5 recognized NSC 20- credit subjects; and an achievement rating of 4 (50-59%) in English as a Home Language; an achievement rating of 4 (50-59%) in Visual Arts/Dramatic Arts."
+  },
+  {
+    "id": "1JDEG2",
+    "faculty": "Faculty of Humanities & Social Sciences",
+    "department": "Criminal Justice",
+    "programme": "Bachelor of Arts in Correctional Studies",
+    "code": "1JDEG2",
+    "qualification": "Bachelor of Arts",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 5,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "1) A National Senior Certificate (NSC) with an achievement rating of 4 (moderate achievement, 50-59%) or better (5, 6 and 7). English HL 5. 2) Refer to the Faculty of Humanities and Social Sciences requirements."
+  },
+  {
+    "id": "1GBA01",
+    "faculty": "Faculty of Humanities & Social Sciences",
+    "department": "Geography",
+    "programme": "Bachelor of Arts Environmental Planning & Development",
+    "code": "1GBA01",
+    "qualification": "Bachelor of Arts",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 40
+      },
+      {
+        "name": "Geography",
+        "min_level": 4,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "1) National Senior Certificate with Degree Endorsement and with 28 NSC points, 2) Pass of at least 50% (level 4) in English, 3) Pass of at least 50% (level 4) in Geography, 4) Refer to the faculty requirements 70 UNDERGRADUATE FACULTY HANDBOOK-2026"
+  },
+  {
+    "id": "1IDEG1",
+    "faculty": "Faculty of Humanities & Social Sciences",
+    "department": "Information Science",
+    "programme": "Bachelor of Arts in Information Science",
+    "code": "1IDEG1",
+    "qualification": "Bachelor of Arts",
+    "aps": 26,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 5,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "1) A National Senior Certificate (NSC) with an achievement rating of 4 (moderate Achievement, 40-49%) or better in 5 recognized NSC 20- credit subjects; and an achievement rating of 4 (50-59%) in English as a Home Language or achievement of 5 (60-69) in English as a First Additional Language. 2) Refer to the faculty requirements"
+  },
+  {
+    "id": "1IDEG2",
+    "faculty": "Faculty of Humanities & Social Sciences",
+    "department": "Information Studies",
+    "programme": "Bachelor of Library and Information Science",
+    "code": "1IDEG2",
+    "qualification": "Bachelor of Library & Information Science",
+    "aps": 26,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 8,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 5,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "1) A National Senior Certificate (NSC) with an achievement rating of 4 (moderate Achievement, 40-49%) or better in 5 recognised NSC 20- credit subjects; an achievement rating of 4 (50-59%) in English as a Home Language or an achievement of 5 (60-69%) in English as a First Additional Language. 2) Refer to the faculty requirements"
+  },
+  {
+    "id": "1PDEG1",
+    "faculty": "Faculty of Humanities & Social Sciences",
+    "department": "Political and International Studies",
+    "programme": "Bachelor of Social Science",
+    "code": "1PDEG1",
+    "qualification": "Bachelor of Social Work",
+    "aps": 26,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 30
+      },
+      {
+        "name": "Geography",
+        "min_level": 5,
+        "min_pct": 50
+      },
+      {
+        "name": "History",
+        "min_level": 5,
+        "min_pct": 50
+      },
+      {
+        "name": "Economics or Mathematical Literacy",
+        "min_level": 4,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "1) NSC with degree endorsement OR Matric Exemption and an achievement rating of 30 points 2) English level 5, Geography level 5, History level 5, Economics or Mathematical Literacy level 4"
+  },
+  {
+    "id": "1DPTM1",
+    "faculty": "Faculty of Humanities & Social Sciences",
+    "department": "Recreation & Tourism",
+    "programme": "Diploma in Tourism Management",
+    "code": "1DPTM1",
+    "qualification": "Diploma",
+    "aps": 24,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 6,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 40
+      },
+      {
+        "name": "Geography",
+        "min_level": 4,
+        "min_pct": 40
+      },
+      {
+        "name": "Geography or Tourism",
+        "min_level": 4,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "NSC with Diploma endorsement; Level 4 or “D” symbol (HG) for English, at least level 4 in any FOUR: Language (English or Maths Lit and /or Tourism and/or Geography and/or Hospitality, Business Studies and/or Maths."
+  },
+  {
+    "id": "1RDEG1",
+    "faculty": "Faculty of Humanities & Social Sciences",
+    "department": "Recreation & Tourism",
+    "programme": "Bachelor of Tourism Studies",
+    "code": "1RDEG1",
+    "qualification": "Bachelor of Tourism Studies",
+    "aps": 26,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 2,
+        "min_pct": 20
+      },
+      {
+        "name": "Geography",
+        "min_level": 4,
+        "min_pct": 40
+      },
+      {
+        "name": "Geography or Tourism",
+        "min_level": 4,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "3) NSC with degree endorsement OR Matric Exemption and an achievement rating of 26 points 4) English level 4 and Geography/Tourism level 4 5) English level SG symbol D or HG level E and Geography SG symbol E"
+  },
+  {
+    "id": "1WDEG1",
+    "faculty": "Faculty of Humanities & Social Sciences",
+    "department": "Social Work",
+    "programme": "Bachelor of Social Work",
+    "code": "1WDEG1",
+    "qualification": "Bachelor of Social Work",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 8,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 2,
+        "min_pct": 20
+      }
+    ],
+    "selection_test": true,
+    "access_programme": false,
+    "raw_admission_text": "The UNIZULU BSW admission procedure will take into consideration the SAQA requirements that an applicant for the BSW must have the following: 1) The National Senior Certificate (NSC) as certified by Umalusi, with an achievement rating of 4 (50-59%) or higher in five (5) recognised NSC subjects with 28 credits and achievement rating 4 or higher in English, (or 5 or higher in English as First Additional Language (FAL). 2) NQF level 4 Qualification (equivalent to full matriculation exemption). 3) FET certificate in Social Auxiliary work (NQF Level 4). 4) Recognition of prior learning for applicants with a qualification experiential learning. 5) English, reading, writing, and speaking in English. Admission selection is done through the Central Applications Office (CAO). • Shortlisted applicants must attend selection interviews. • Must have satisfied the Department during the interview and while they study that they possess the qualities required to train as a social worker and the ability to undertake independent learning. • Refer to the faculty requirements"
+  },
+  {
+    "id": "1SDEG1",
+    "faculty": "Faculty of Humanities & Social Sciences",
+    "department": "Sociology",
+    "programme": "Bachelor of Arts in Sociology",
+    "code": "1SDEG1",
+    "qualification": "Bachelor of Arts",
+    "aps": 26,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 2,
+        "min_pct": 20
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "1) A National Senior Certificate (NSC) with an achievement rating of 4 (moderate Achievement, 40-49%) or better in 5 recognized NSC 20- credit subjects and an achievement rating of 4 (50-59%) in English as a first additional language and Home Language. 2) Refer to the faculty requirements."
+  },
+  {
+    "id": "1SDEG2",
+    "faculty": "Faculty of Humanities & Social Sciences",
+    "department": "Sociology",
+    "programme": "Bachelor of Arts in Industrial Sociology",
+    "code": "1SDEG2",
+    "qualification": "Bachelor of Arts",
+    "aps": 26,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 2,
+        "min_pct": 20
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "1) A National Senior Certificate (NSC) with an achievement rating of 4 (moderate Achievement, 40-49%) or better in 5 recognized NSC 20- credit subjects; and an achievement rating of 4 (50-59%) in English as first additional language and Home Language. 2) Refer to the faculty requirements."
+  },
+  {
+    "id": "4BSC01",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Mathematical Sciences And Computer Science",
+    "programme": "Bachelor Of Science – Applied Mathematics & Computer Science",
+    "code": "4BSC01",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 5,
+        "min_pct": 60
+      },
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Physical Science or Information Technology",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "Mathematics: 60% (L5); English: 50% (L4); Physical Science Or Info: 50% (L4)"
+  },
+  {
+    "id": "4BSC02",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Mathematical Sciences And Hydrology",
+    "programme": "Bachelor Of Science – Applied Mathematics & Hydrology",
+    "code": "4BSC02",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 5,
+        "min_pct": 60
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "English: 50% (L4); Mathematics: 60% (L5); Physical Science: 50% (L4)"
+  },
+  {
+    "id": "4BSC03",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Mathematical Sciences",
+    "programme": "Bachelor Of Science – Applied Mathematics & Mathematics",
+    "code": "4BSC03",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 5,
+        "min_pct": 60
+      },
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "Mathematics: 60% (L5); English: 50% (L4); Physical Science Or: 50% (L4)"
+  },
+  {
+    "id": "4BSC04",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Mathematical Sciences And Physics & Engineering",
+    "programme": "Bachelor Of Science – Applied Mathematics & Physics",
+    "code": "4BSC04",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 5,
+        "min_pct": 60
+      },
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "Mathematics: 60% (L5); English: 50% (L4); Physical Science: 50% (L4)"
+  },
+  {
+    "id": "4BSC05",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Mathematical Sciences",
+    "programme": "Bachelor Of Science – Applied Mathematics & Statistics",
+    "code": "4BSC05",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 5,
+        "min_pct": 60
+      },
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Physical Science or Information Technology",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "Mathematics: 60% (L5); English: 50% (L4); Physical Science Or Info: 50% (L4)"
+  },
+  {
+    "id": "4BSC06",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Biochemistry & Microbiology And Botany",
+    "programme": "Bachelor Of Science – Biochemistry & Botany",
+    "code": "4BSC06",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "Mathematics: 50% (L4); English: 50% (L4); Life Sciences: 50% (L4)"
+  },
+  {
+    "id": "4BSC07",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Biochemistry & Microbiology And Chemistry",
+    "programme": "Bachelor Of Science – Biochemistry & Chemistry",
+    "code": "4BSC07",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 5,
+        "min_pct": 60
+      },
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "Mathematics: 60% (L5); English: 50% (L4); Physical Science: 50% (L4); Life Sciences: 50% (L4)"
+  },
+  {
+    "id": "4BSC08",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science",
+    "programme": "Bachelor Of Science – Biochemistry & Human Movement Science",
+    "code": "4BSC08",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "English: 50% (L4); Mathematics: 50% (L4); Physical Science: 50% (L4); Life Sciences: 50% (L4)"
+  },
+  {
+    "id": "4BSC09",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Biochemistry & Microbiology",
+    "programme": "Bachelor Of Science – Biochemistry & Microbiology",
+    "code": "4BSC09",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "Mathematics: 50% (L4); Life Sciences: 50% (L4); English: 50% (L4)"
+  },
+  {
+    "id": "4BSC10",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Biochemistry & Microbiology And Zoology",
+    "programme": "Bachelor Of Science – Biochemistry & Zoology",
+    "code": "4BSC10",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "English: 50% (L4); Mathematics: 50% (L4); Life Sciences: 50% (L4)"
+  },
+  {
+    "id": "4BSC11",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Botany And Geography",
+    "programme": "Bachelor Of Science – Botany & Geography",
+    "code": "4BSC11",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Geography",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "Mathematics: 50% (L4); English: 50% (L4); Life Sciences: 50% (L4); Geography: 50% (L4)"
+  },
+  {
+    "id": "4BSC12",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Botany And Hydrology",
+    "programme": "Bachelor Of Science – Botany & Hydrology",
+    "code": "4BSC12",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "English: 50% (L4); Mathematics: 50% (L4); Physical Science: 50% (L4); Life Sciences: 50% (L4)"
+  },
+  {
+    "id": "4BSC13",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Botany And Biochemmistry & Microbiology",
+    "programme": "Bachelor Of Science – Botany & Microbiology",
+    "code": "4BSC13",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "Mathematics: 50% (L4); English: 50% (L4); Life Sciences: 50% (L4)"
+  },
+  {
+    "id": "4BSC14",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Botany And Zoology",
+    "programme": "Bachelor Of Science – Botany & Zoology",
+    "code": "4BSC14",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "Mathematics: 50% (L4); English: 50% (L4); Life Sciences: 50% (L4)"
+  },
+  {
+    "id": "4BSC15",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Chemistry And Computer Science",
+    "programme": "Bachelor Of Science – Chemistry & Computer Science",
+    "code": "4BSC15",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 5,
+        "min_pct": 60
+      },
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "Mathematics: 60% (L5); English: 50% (L4); Physical Science: 50% (L4)"
+  },
+  {
+    "id": "4BSC16",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Chemistry And Hydrology",
+    "programme": "Bachelor Of Science – Chemistry & Hydrology",
+    "code": "4BSC16",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 5,
+        "min_pct": 60
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "English: 50% (L4); Mathematics: 60% (L5); Physical Science: 50% (L4)"
+  },
+  {
+    "id": "4BSC17",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Chemistry And Mathematical Sciences",
+    "programme": "Bachelor Of Science – Chemistry & Mathematics",
+    "code": "4BSC17",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 5,
+        "min_pct": 60
+      },
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "Mathematics: 60% (L5); English: 50% (L4); Physical Science: 50% (L4)"
+  },
+  {
+    "id": "4BSC18",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Chemistry And Physics & Engineering",
+    "programme": "Bachelor Of Science – Chemistry & Physics",
+    "code": "4BSC18",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 5,
+        "min_pct": 60
+      },
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "Mathematics: 60% (L5); English: 50% (L4); Physical Science: 50% (L4)"
+  },
+  {
+    "id": "4BSC19",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Degree(Designator) Bachelor Of Science",
+    "programme": "Bachelor Of Science – Chemistry & Zoology",
+    "code": "4BSC19",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 5,
+        "min_pct": 60
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "English: 50% (L4); Mathematics: 60% (L5); Physical Science: 50% (L4); Life Sciences: 50% (L4)"
+  },
+  {
+    "id": "4BSC20",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Hydrology And Computer Science",
+    "programme": "Bachelor Of Science – Computer Science & Hydrology",
+    "code": "4BSC20",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 5,
+        "min_pct": 60
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "English: 50% (L4); Mathematics: 60% (L5); Physical Science: 50% (L4)"
+  },
+  {
+    "id": "4BSC21",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Computer Science And Mathematical Sciences",
+    "programme": "Bachelor Of Science – Computer Science & Mathematics",
+    "code": "4BSC21",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 5,
+        "min_pct": 60
+      },
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "Mathematics: 60% (L5); English: 50% (L4); Physical Science: 50% (L4)"
+  },
+  {
+    "id": "4BSC22",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Computer Science And Physics & Engineering",
+    "programme": "Bachelor Of Science – Computer Science & Physics",
+    "code": "4BSC22",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 5,
+        "min_pct": 60
+      },
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "Mathematics: 60% (L5); English: 50% (L4); Physical Science: 50% (L4)"
+  },
+  {
+    "id": "4BSC23",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Computer Science And Mathematical Sciences",
+    "programme": "Bachelor Of Science – Computer Science & Statistics",
+    "code": "4BSC23",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 5,
+        "min_pct": 60
+      },
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "Mathematics: 60% (L5); English: 50% (L4); Physical Science Or: 50% (L4)"
+  },
+  {
+    "id": "4BSC24",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Geography And Hydrology",
+    "programme": "Bachelor Of Science – Geography & Hydrology",
+    "code": "4BSC24",
+    "qualification": "Bachelor Of Science",
+    "aps": 0,
+    "aps_unknown": true,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Geography",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "English: 50% (L4); Geography: 50% (L4); Mathematics: 50% (L4); Physical Science: 50% (L4)"
+  },
+  {
+    "id": "4BSC25",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Geography And Physics & Engineering",
+    "programme": "Bachelor Of Science – Geography & Physics",
+    "code": "4BSC25",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Geography",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 5,
+        "min_pct": 60
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "English: 50% (L4); Geography: 50% (L4); Mathematics: 60% (L5); Physical Science: 50% (L4)"
+  },
+  {
+    "id": "4BSC26",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Geography And Mathematical Sciences",
+    "programme": "Bachelor Of Science – Geography & Statistics",
+    "code": "4BSC26",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Geography",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 5,
+        "min_pct": 60
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "English: 50% (L4); Geography: 50% (L4); Mathematics: 60% (L5); Physical Science: 50% (L4)"
+  },
+  {
+    "id": "4BSC27",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Geography And Zoology",
+    "programme": "Bachelor Of Science – Geography & Zoology",
+    "code": "4BSC27",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "English: 50% (L4); Mathematics: 50% (L4); Life Sciences: 50% (L4)"
+  },
+  {
+    "id": "4BSC28",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Human Movement Science And Physics & Engineering",
+    "programme": "Bachelor Of Science – Human Movement Science & Physics",
+    "code": "4BSC28",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 5,
+        "min_pct": 60
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "English: 50% (L4); Mathematics: 60% (L5); Physical Science: 50% (L4); Life Sciences: 50% (L4)"
+  },
+  {
+    "id": "4BSC29",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Human Movement Science And Zoology",
+    "programme": "Bachelor Of Science – Human Movement Science & Zoology",
+    "code": "4BSC29",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "English: 50% (L4); Mathematics: 50% (L4); Physical Science: 50% (L4); Life Sciences: 50% (L4)"
+  },
+  {
+    "id": "4BSC30",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Hydrology And Biochemistry & Microbiology",
+    "programme": "Bachelor Of Science – Hydrology & Microbiology",
+    "code": "4BSC30",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "English: 50% (L4); Mathematics: 50% (L4); Physical Science: 50% (L4); Life Sciences: 50% (L4)"
+  },
+  {
+    "id": "4BSC31",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Hydrology And Physics & Engineering",
+    "programme": "Bachelor Of Science – Hydrology & Physics",
+    "code": "4BSC31",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 5,
+        "min_pct": 60
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "English: 50% (L4); Mathematics: 60% (L5); Physical Science: 50% (L4)"
+  },
+  {
+    "id": "4BSC32",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Hydrology And Mathematical Sciences",
+    "programme": "Bachelor Of Science – Hydrology & Statistics",
+    "code": "4BSC32",
+    "qualification": "Bachelor Of Science",
+    "aps": 0,
+    "aps_unknown": true,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 5,
+        "min_pct": 60
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "English: 50% (L4); Mathematics: 60% (L5); Physical Science: 50% (L4)"
+  },
+  {
+    "id": "4BSC33",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Hydrology And Zoology",
+    "programme": "Bachelor Of Science – Hydrology & Zoology",
+    "code": "4BSC33",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "English: 50% (L4); Mathematics: 50% (L4); Physical Science: 50% (L4); Life Sciences: 50% (L4)"
+  },
+  {
+    "id": "4BSC34",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Mathematical Sciences And Physics & Engineering",
+    "programme": "Bachelor Of Science – Mathematics & Physics",
+    "code": "4BSC34",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 5,
+        "min_pct": 60
+      },
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "Mathematics: 60% (L5); English: 50% (L4); Physical Science: 50% (L4)"
+  },
+  {
+    "id": "4BSC35",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Mathematical Sciences",
+    "programme": "Bachelor Of Science – Mathematics & Statistics",
+    "code": "4BSC35",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 5,
+        "min_pct": 60
+      },
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Physical Science or Information Technology",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "Mathematics: 60% (L5); English: 50% (L4); Physical Science Or Info: 50% (L4)"
+  },
+  {
+    "id": "4BSC36",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Biochemistry & Microbiology And Zoology",
+    "programme": "Bachelor Of Science – Microbiology & Zoology",
+    "code": "4BSC36",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "English: 50% (L4); Mathematics: 50% (L4); Life Sciences: 50% (L4)"
+  },
+  {
+    "id": "4BSC37",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science",
+    "programme": "Bachelor Of Science – Microbiology & Human Movement Science",
+    "code": "4BSC37",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 3,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 4,
+        "min_pct": 50
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 4,
+        "min_pct": 50
+      }
+    ],
+    "selection_test": false,
+    "access_programme": false,
+    "raw_admission_text": "English: 50% (L4); Mathematics: 50% (L4); Physical Science: 50% (L4); Life Sciences: 50% (L4)"
+  },
+  {
+    "id": "4FBS01",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Applied Mathematics & Computer Science",
+    "code": "4FBS01",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "Mathematics: 40% (L3); English: 40% (L3)"
+  },
+  {
+    "id": "4FBS02",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Applied Mathematics & Hydrology",
+    "code": "4FBS02",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "English: 40% (L3); Mathematics: 40% (L3); Physical Science: 40% (L3)"
+  },
+  {
+    "id": "4FBS03",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Applied Mathematics & Mathematics",
+    "code": "4FBS03",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "Mathematics: 40% (L3); English: 40% (L3); Physical Science: 40% (L3)"
+  },
+  {
+    "id": "4FBS04",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Applied Mathematics & Physics",
+    "code": "4FBS04",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "Mathematics: 40% (L3); English: 40% (L3); Physical Science: 40% (L3)"
+  },
+  {
+    "id": "4FBS06",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Biochemistry & Botany",
+    "code": "4FBS06",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "Mathematics: 40% (L3); English: 40% (L3); Physical Science: 40% (L3); Life Sciences: 40% (L3)"
+  },
+  {
+    "id": "4FBS07",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Biochemistry & Chemistry",
+    "code": "4FBS07",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "Mathematics: 40% (L3); English: 40% (L3); Physical Science: 40% (L3); Life Sciences: 40% (L3)"
+  },
+  {
+    "id": "4FBS08",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Biochemistry & Human Movement Science",
+    "code": "4FBS08",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "English: 40% (L3); Mathematics: 40% (L3); Physical Science: 40% (L3); Life Sciences: 40% (L3)"
+  },
+  {
+    "id": "4FBS09",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Biochemistry & Microbiology",
+    "code": "4FBS09",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "Mathematics: 40% (L3); Life Sciences: 40% (L3); Physical Science: 40% (L3); English: 40% (L3)"
+  },
+  {
+    "id": "4FBS10",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Biochemistry & Zoology",
+    "code": "4FBS10",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "English: 40% (L3); Mathematics: 40% (L3); Life Sciences: 40% (L3); Physical Sciences: 40% (L3)"
+  },
+  {
+    "id": "4FBS11",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Botany & Geography",
+    "code": "4FBS11",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Geography",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "Mathematics: 40% (L3); English: 40% (L3); Life Sciences: 40% (L3); Physical Sciences: 40% (L3); Geography: 40% (L3)"
+  },
+  {
+    "id": "4FBS12",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Botany & Hydrology",
+    "code": "4FBS12",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "English: 40% (L3); Mathematics: 40% (L3); Physical Science: 40% (L3); Life Sciences: 40% (L3)"
+  },
+  {
+    "id": "4FBS13",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Botany & Microbiology",
+    "code": "4FBS13",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "Mathematics: 40% (L3); English: 40% (L3); Life Sciences: 40% (L3); Physical Science: 40% (L3)"
+  },
+  {
+    "id": "4FBS14",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Botany & Zoology",
+    "code": "4FBS14",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "Mathematics: 40% (L3); English: 40% (L3); Life Sciences: 40% (L3); Physical Science: 40% (L3)"
+  },
+  {
+    "id": "4FBS15",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Chemistry & Computer Science",
+    "code": "4FBS15",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "Mathematics: 40% (L3); English: 40% (L3); Physical Science: 40% (L3)"
+  },
+  {
+    "id": "4FBS16",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Chemistry & Hydrology",
+    "code": "4FBS16",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "English: 40% (L3); Mathematics: 40% (L3); Physical Science: 40% (L3)"
+  },
+  {
+    "id": "4FBS17",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Chemistry & Mathematics",
+    "code": "4FBS17",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "Mathematics: 40% (L3); English: 40% (L3); Physical Science: 40% (L3)"
+  },
+  {
+    "id": "4FBS18",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Chemistry & Physics",
+    "code": "4FBS18",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "Mathematics: 40% (L3); English: 40% (L3); Physical Science: 40% (L3)"
+  },
+  {
+    "id": "4FBS19",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Chemistry & Zoology",
+    "code": "4FBS19",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "English: 40% (L3); Mathematics: 40% (L3); Physical Science: 40% (L3); Life Sciences: 40% (L3)"
+  },
+  {
+    "id": "4FBS20",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Computer Science & Hydrology",
+    "code": "4FBS20",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "English: 40% (L3); Mathematics: 40% (L3); Physical Science: 40% (L3)"
+  },
+  {
+    "id": "4FBS21",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Computer Science & Mathematics",
+    "code": "4FBS21",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "Mathematics: 40% (L3); English: 40% (L3); Physical Science: 40% (L3)"
+  },
+  {
+    "id": "4FBS22",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Computer Science & Physics",
+    "code": "4FBS22",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "Mathematics: 40% (L3); English: 40% (L3); Physical Science: 40% (L3)"
+  },
+  {
+    "id": "4FBS23",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Computer Science & Statistics",
+    "code": "4FBS23",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "Mathematics: 40% (L3); English: 40% (L3); Physical Science: 40% (L3)"
+  },
+  {
+    "id": "4FBS24",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Geography & Hydrology",
+    "code": "4FBS24",
+    "qualification": "Bachelor Of Science",
+    "aps": 0,
+    "aps_unknown": true,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Geography",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "English: 40% (L3); Geography: 40% (L3); Mathematics: 40% (L3); Physical Science: 40% (L3)"
+  },
+  {
+    "id": "4FBS25",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Geography & Physics",
+    "code": "4FBS25",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Geography",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "English: 40% (L3); Geography: 40% (L3); Mathematics: 40% (L3); Physical Science: 40% (L3)"
+  },
+  {
+    "id": "4FBS26",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Geography & Statistics",
+    "code": "4FBS26",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Geography",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "English: 40% (L3); Geography: 40% (L3); Mathematics: 40% (L3); Physical Science: 40% (L3)"
+  },
+  {
+    "id": "4FBS27",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Geography & Zoology",
+    "code": "4FBS27",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "English: 40% (L3); Mathematics: 40% (L3); Life Sciences: 40% (L3)"
+  },
+  {
+    "id": "4FBS28",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Human Movement Science & Physics",
+    "code": "4FBS28",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "English: 40% (L3); Mathematics: 40% (L3); Physical Science: 40% (L3); Life Sciences: 40% (L3)"
+  },
+  {
+    "id": "4FBS30",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Hydrology & Microbiology",
+    "code": "4FBS30",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "English: 40% (L3); Mathematics: 40% (L3); Physical Science: 40% (L3); Life Sciences: 40% (L3)"
+  },
+  {
+    "id": "4FBS31",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Hydrology & Physics",
+    "code": "4FBS31",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "English: 40% (L3); Mathematics: 40% (L3); Physical Science: 40% (L3)"
+  },
+  {
+    "id": "4FBS32",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Hydrology & Statistics",
+    "code": "4FBS32",
+    "qualification": "Bachelor Of Science",
+    "aps": 0,
+    "aps_unknown": true,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "English: 40% (L3); Mathematics: 40% (L3); Physical Science: 40% (L3)"
+  },
+  {
+    "id": "4FBS33",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Hydrology & Zoology",
+    "code": "4FBS33",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "English: 40% (L3); Mathematics: 40% (L3); Physical Science: 40% (L3); Life Sciences: 40% (L3)"
+  },
+  {
+    "id": "4FBS34",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Mathematics & Physics",
+    "code": "4FBS34",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "Mathematics: 40% (L3); English: 40% (L3); Physical Science: 40% (L3)"
+  },
+  {
+    "id": "4FBS35",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Mathematics & Statistics",
+    "code": "4FBS35",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "Mathematics: 40% (L3); English: 40% (L3); Physical Science: 40% (L3)"
+  },
+  {
+    "id": "4FBS36",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Microbiology & Zoology",
+    "code": "4FBS36",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "English: 40% (L3); Mathematics: 40% (L3); Life Sciences: 40% (L3); Physical Science: 40% (L3)"
+  },
+  {
+    "id": "4FBS37",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Microbiology & Human Movement Science",
+    "code": "4FBS37",
+    "qualification": "Bachelor Of Science",
+    "aps": 28,
+    "aps_unknown": false,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 3,
+        "min_pct": 40
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "English: 40% (L3); Mathematics: 40% (L3); Physical Science: 40% (L3); Life Sciences: 40% (L3)"
+  },
+  {
+    "id": "4FSC17",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Chemistry & Mathematics",
+    "code": "4FSC17",
+    "qualification": "Bachelor Of Science",
+    "aps": 0,
+    "aps_unknown": true,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 2,
+        "min_pct": 30
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "Mathematics: 40% (L3); English: 40% (L3); Life Sciences: 40% (L3); Physical Sciences: 30% (L2)"
+  },
+  {
+    "id": "4FSC18",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Chemistry & Physics",
+    "code": "4FSC18",
+    "qualification": "Bachelor Of Science",
+    "aps": 0,
+    "aps_unknown": true,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 2,
+        "min_pct": 30
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "Mathematics: 40% (L3); English: 40% (L3); Life Sciences: 40% (L3); Physical Sciences: 30% (L2)"
+  },
+  {
+    "id": "4FSC19",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Chemistry & Zoology",
+    "code": "4FSC19",
+    "qualification": "Bachelor Of Science",
+    "aps": 0,
+    "aps_unknown": true,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 2,
+        "min_pct": 30
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "Mathematics: 40% (L3); English: 40% (L3); Life Sciences: 40% (L3); Physical Sciences: 30% (L2)"
+  },
+  {
+    "id": "4FSC34",
+    "faculty": "Faculty of Science, Agriculture & Engineering",
+    "department": "Science Access",
+    "programme": "Bachelor Of Science – Mathematics & Physics",
+    "code": "4FSC34",
+    "qualification": "Bachelor Of Science",
+    "aps": 0,
+    "aps_unknown": true,
+    "duration": 4,
+    "nqf": 7,
+    "streams": [],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "English",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Life Sciences",
+        "min_level": 3,
+        "min_pct": 40
+      },
+      {
+        "name": "Physical Science",
+        "min_level": 2,
+        "min_pct": 30
+      }
+    ],
+    "selection_test": false,
+    "access_programme": true,
+    "raw_admission_text": "Mathematics: 40% (L3); English: 40% (L3); Life Sciences: 40% (L3); Physical Sciences: 30% (L2)"
+  }
+]

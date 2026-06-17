@@ -1,0 +1,29 @@
+{
+  "source": "4AMT122-Study Guide-2024.pdf",
+  "module_title": "Further Discrete Mathematics",
+  "module_code": "4AMT122",
+  "module_credits": "16",
+  "level_of_study": "1",
+  "notional_hours": "160",
+  "nqf_level": "6",
+  "prerequisites": "for this course except the adequate knowledge of high",
+  "lecturers": [
+    "MR ZONDI P.L",
+    "PROF BEESHAM A"
+  ],
+  "module_outcomes": [
+    "Demonstrate knowledge and understanding of basic concepts of number theory;",
+    "know, understand and apply the methods of mathematical proofs;",
+    "apply the numerical methods for root finding and solving differential equations (Euler’s method);",
+    "develop an understanding to use mathematical modelling."
+  ],
+  "assessment_activities": [],
+  "contact_emails": [
+    "zondip@unizulu.ac.za",
+    "zibanio@unizulu.ac.za"
+  ],
+  "consultation_times": "Days of the week Times Venues N/A N/A N/A",
+  "module_purpose": "The module is divided into two parts: the first part is aimed at covering basic methods of proofs with strong interest in number theory, and to demonstrating how different numerical techniques can be applied in complex problems involving Solving algebraic equations, differentiation and integration, and introductory mathematical modelling.",
+  "prescribed_readings": [],
+  "recommended_readings": []
+}

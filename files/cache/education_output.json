@@ -1,0 +1,26 @@
+[
+    {
+        "programme": "B Ed in Foundation Phase Teaching",
+        "programme_code": "3BFPT1",
+        "required_nsc_subjects": "NSC endorsement with: | | IsiZulu HL4 and | Engl FAL4 | Maths 3 or Maths Literacy 4",
+        "required_sc_subjects": "Matric Exemption with: | | IsiZulu 1st Lang HG | D or SG | C | Engl HG | D or SG | C | Maths HG | E or SG | D",
+        "aps": 26,
+        "selection_test": "No"
+    },
+    {
+        "programme": "B Ed Intermediate Phase Teaching: Language & MSTE",
+        "programme_code": "3BDIP1",
+        "required_nsc_subjects": "NSC endorsement with: | | IsiZulu HL 4 and | English FAL 4 | Either Mathematics 4 | Physical Science 3 OR | Physical Science 4 | Mathematics 3",
+        "required_sc_subjects": "Matric exemption with: | | IsiZulu HG | D or SG | C | Engl HG | D or SG | C | Either Maths HG | D or SG | C Physical Sci HG | E or SG | D OR | Physical Sci HG | D or SG | C and Maths HG | E or SG | D",
+        "aps": 26,
+        "selection_test": "No"
+    },
+    {
+        "programme": "B Ed Intermediate Phase Teaching: Lang & Humanities",
+        "programme_code": "3BDIP2",
+        "required_nsc_subjects": "NSC endorsement with: | | IsiZulu HL 4 and | Engl FAL 4 plus | Geog 4 and Hist 4",
+        "required_sc_subjects": "Matric exemption with: | | IsiZulu HG | D or SG | C | Engl HG | D or SG | C | Geography HG | D or SG | C | History HG | D or SG | C",
+        "aps": 26,
+        "selection_test": "No"
+    }
+]

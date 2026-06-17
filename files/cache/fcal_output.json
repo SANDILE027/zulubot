@@ -1,0 +1,93 @@
+[
+    {
+        "qualification": "Higher Certificate (Accountancy)",
+        "duration_years": "1",
+        "aps": 22,
+        "english_requirement": "Level 3 or SG level D or HG level E",
+        "maths_requirement": "Maths level 3 or SG level D or HG level E or Math Lit level 4"
+    },
+    {
+        "qualification": "Higher Certificate (Marketing)",
+        "duration_years": "1",
+        "aps": 22,
+        "english_requirement": "Level 3 or SG level D or HG level E",
+        "maths_requirement": "Maths level 3 or SG level D or HG level E or Math Lit level 4"
+    },
+    {
+        "qualification": "Diploma (Logistics Management)",
+        "duration_years": "3",
+        "aps": 24,
+        "english_requirement": "Level 3 or SG level D or HG level E",
+        "maths_requirement": "Maths level 3 or SG level D or HG level E or Math Lit level 4"
+    },
+    {
+        "qualification": "Diploma (Management of Co- operatives)",
+        "duration_years": "3",
+        "aps": 24,
+        "english_requirement": "Level 3 or SG level D or HG level E",
+        "maths_requirement": "Maths level 3 or SG level D or HG level E or Math Lit level 4"
+    },
+    {
+        "qualification": "Diploma (Transport Management)",
+        "duration_years": "3",
+        "aps": 24,
+        "english_requirement": "Level 3 or SG level D or HG level E",
+        "maths_requirement": "Maths level 3 or SG level D or HG level E or Math Lit level 4"
+    },
+    {
+        "qualification": "Bachelor of Commerce 4-Year Extended Programme",
+        "duration_years": "4",
+        "aps": 26,
+        "english_requirement": "Level 3 or SG level D or HG level E",
+        "maths_requirement": "Maths level 3 or SG level D or HG level E or Math Lit level 4"
+    },
+    {
+        "qualification": "Bachelor of Commerce",
+        "duration_years": "3",
+        "aps": 28,
+        "english_requirement": "Level 4 or SG level C or HG level D",
+        "maths_requirement": "Maths level 3 or SG level D or HG level E or Math Lit level 6"
+    },
+    {
+        "qualification": "Bachelor of Commerce (Accounting)",
+        "duration_years": "3",
+        "aps": 28,
+        "english_requirement": "Level 4 or SG level C or HG level D",
+        "maths_requirement": "Maths level 4 or SG level C or HG level D"
+    },
+    {
+        "qualification": "Bachelor of Commerce (Accounting Science)",
+        "duration_years": "4",
+        "aps": 28,
+        "english_requirement": "Level 4 or SG level C or HG level D",
+        "maths_requirement": "Maths level 4 or SG level C or HG level D"
+    },
+    {
+        "qualification": "Bachelor of Commerce (Management Information Systems)",
+        "duration_years": "3",
+        "aps": 28,
+        "english_requirement": "Level 4 or SG level C or HG level D",
+        "maths_requirement": "Maths level 4 or SG level C or HG level D"
+    },
+    {
+        "qualification": "Bachelor of Administration",
+        "duration_years": "3",
+        "aps": 28,
+        "english_requirement": "Level 4 or SG level D or HG level E",
+        "maths_requirement": "Maths level 3 or SG level D or HG level E or Math Lit level 4"
+    },
+    {
+        "qualification": "Bachelor of Laws",
+        "duration_years": "4",
+        "aps": 30,
+        "english_requirement": "Level 4 or SG level C or HG level D",
+        "maths_requirement": "Maths level 3 or SG level D or HG level E or Math Lit level 4"
+    },
+    {
+        "qualification": "Diploma in Management of Co-operatives",
+        "duration_years": null,
+        "aps": null,
+        "english_requirement": null,
+        "maths_requirement": null
+    }
+]

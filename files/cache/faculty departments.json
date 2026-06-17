@@ -1,0 +1,62 @@
+[
+  {
+    "faculty": "Faculty of Education",
+    "departments": [
+      "Mathematics, Science and Technology",
+      "Languages and Social Sciences",
+      "Educational Foundations",
+      "Early Childhood Education"
+    ]
+  },
+  {
+    "faculty": "Faculty of Commerce, Administration and Law (FCAL)",
+    "departments": [
+      "Accounting and Auditing",
+      "Business Management",
+      "Economics",
+      "Public Administration",
+      "Law"
+    ]
+  },
+  {
+    "faculty": "Faculty of Humanities and Social Sciences",
+    "departments": [
+      "African Languages & Culture",
+      "Anthropology & Development Studies",
+      "Communication Science",
+      "Creative Arts",
+      "Criminal Justice",
+      "English",
+      "General Linguistics & Modern Languages",
+      "Geography & Environmental Planning",
+      "History",
+      "Information Studies",
+      "Philosophy & Applied Ethics",
+      "Political & International Studies",
+      "Psychology",
+      "Recreation & Tourism",
+      "Social Work",
+      "Sociology"
+    ]
+  },
+  {
+    "faculty": "Faculty of Science, Agriculture and Engineering",
+    "departments": [
+      "Agriculture",
+      "Biochemistry and Microbiology",
+      "Botany",
+      "Chemistry",
+      "Computer Science",
+      "Consumer Sciences",
+      "Engineering",
+      "Geography and Environmental Studies",
+      "Human Movement Science",
+      "Hydrology",
+      "Mathematical Sciences",
+      "Nursing Science",
+      "Physics",
+      "Science Access",
+      "Zoology"
+    ]
+  }
+]

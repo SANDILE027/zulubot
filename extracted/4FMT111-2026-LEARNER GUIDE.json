@@ -1,0 +1,32 @@
+{
+  "source": "4FMT111-2026-LEARNER GUIDE.pdf",
+  "module_title": "Discrete Mathematics",
+  "module_code": "4AMT111",
+  "module_credits": "16",
+  "level_of_study": "1",
+  "notional_hours": "120",
+  "nqf_level": "7",
+  "prerequisites": "NOT SPECIFIED",
+  "lecturers": [
+    "Mr. A. Kunyana",
+    "Ms. L. Mzimela"
+  ],
+  "module_outcomes": [
+    "Apply logic and proof techniques to a wide variety of fields, including everyday applications.",
+    "Use deductive reasoning to solve problems.",
+    "Demonstrate familiarity of basic concepts in elementary number theory which include among others: properties of numbers, permutations and combinations, and arithmetic modulo .",
+    "Write simple algorithms. 𝑛𝑛",
+    "Demonstrate familiarity with the terminology of recursion and graph",
+    "Solve simple problems using standard methods of recursion and graph"
+  ],
+  "assessment_activities": [],
+  "contact_emails": [
+    "kunyanaa@unizulu.ac.za",
+    "MzimelaL@unizulu.ac.za",
+    "ZibaniO@unizulu.ac.za"
+  ],
+  "consultation_times": "in Mr. Kunyana’s office door.",
+  "module_purpose": "The overall goal of discrete mathematics is to study mathematical objects that are discrete rather than continuous. We will discuss a number of selected topics, mostly from the areas of mathematical logic, elementary number theory, graph theory, recursion and algorithms.",
+  "prescribed_readings": [],
+  "recommended_readings": []
+}

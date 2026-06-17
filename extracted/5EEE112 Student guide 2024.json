@@ -1,0 +1,33 @@
+{
+  "source": "5EEE112 Student guide 2024.pdf",
+  "module_title": "Introduction to Engineering",
+  "module_code": "5EEE112",
+  "module_credits": "16",
+  "level_of_study": "1st",
+  "notional_hours": "160",
+  "nqf_level": "5",
+  "prerequisites": "NOT SPECIFIED",
+  "lecturers": [
+    "Mr. B Khoza"
+  ],
+  "module_outcomes": [
+    "Ukukhombisa ukuqonda imithetho ebalulekile ye-electrical",
+    "Ukwenza izibalo ezilula ezihlanganisa imithetho ye-electrical",
+    "Ukuthola ulwazi oluphelele ngezisekelo zamasekhethi kagesi.",
+    "Ukusebenzisa ngendlela efanele amathiyoremu ezinhlelokusebenza zikagesi ekuhlaziyweni kwamasekhethi.",
+    "Ukuhlaziya ama-transient kanye nama-steady state response kumasekhethi kagesi.",
+    "Ukukhombisa ukuqonda ithiyori ye-steady-state AC kanye nokuhlaziya amasekhethi e-AC kusetshenziswa izinombolo ezinkimbinkimbi kanye nemidwebo yama-phasor.",
+    "Ukuchaza amakhonsepthi e-real power, imaginary power (ukugcineka kwamandla kagesi) kanye ne-complex power.",
+    "Ukusebenzisa izinto zokusebenza ezibalulekile elabhorethri kanye nokuhlola ukusebenza ngendlela kwezinto ezisetshenziswayo ezimeni zangoqobo."
+  ],
+  "assessment_activities": [],
+  "contact_emails": [
+    "KhozaB@unizulu.ac.za",
+    "MushenyaJ@unizulu.ac.za",
+    "zikalalas@unizulu.ac.za"
+  ],
+  "consultation_times": ": Kusazoqinisekiswa Izinsuku zesonto Izikhathi izindawo",
+  "module_purpose": "Le mojuli ihlose ukukhuthaza kanye nokungenisa abafundi olwazini lomklamo we-electrical engineering. Le mojuli ijwayeza abafundi amasekhethi kagesi kanye namathiyoremu ezinhlelokusebenza, amakhonsepthi e-DC response, steady-state AC response, transient response kanye nokuhlaziywa kwe-single-phase AC kusetshenziswa imidwebo yama-phasor. Okunye futhi, inikezela ngolwazi lokwakheka kwamandla kagesi, ukusatshalaliswa kwawo, kanye nesimo samandla kumasekhethi ayi-single phase.",
+  "prescribed_readings": [],
+  "recommended_readings": []
+}

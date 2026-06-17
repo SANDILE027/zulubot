@@ -1,0 +1,100 @@
+[
+  {
+    "faculty": "Faculty of Science, Agriculture and Engineering",
+    "programmes": [
+      "B Consumer Science: Extension & Rural Development",
+      "B Consumer Science: Hospitality & Tourism",
+      "B Eng Electrical Engineering",
+      "B Eng Electrical Engineering and Computer Engineering",
+      "B Eng Mechanical Engineering",
+      "B Eng Mechatronic Engineering",
+      "B Nursing Science",
+      "B Sc Agric: Agronomy",
+      "B Sc Agric: Animal Science",
+      "B Sc Agricultural Economics: Agribusiness Management",
+      "B Sc Applied Mathematics with Computer Sciences as Major 2",
+      "B Sc Applied Mathematics with Hydrology as Major 2",
+      "B Sc Applied Mathematics with Mathematics as Major 2",
+      "B Sc Applied Mathematics with Physics as Major 2",
+      "B Sc Applied Mathematics with Statistics as Major 2",
+      "B Sc Augmented: Life Sciences",
+      "B Sc Augmented: Physical Sciences",
+      "B Sc Biochemistry with Botany as Major 2",
+      "B Sc Biochemistry with Chemistry as Major 2",
+      "B Sc Biochemistry with Human Movement Science as Major 2",
+      "B Sc Biochemistry with Microbiology as Major 2",
+      "B Sc Biochemistry with Zoology as Major 2",
+      "B Sc Botany with Geography as Major 2",
+      "B Sc Botany with Hydrology as Major 2",
+      "B Sc Botany with Microbiology as Major 2"
+    ]
+  },
+  {
+    "faculty": "Faculty of Commerce, Administration and Law",
+    "programmes": [
+      "B Admin: Public Administration and Business Management",
+      "B Admin: Public Administration and Economics",
+      "B Admin: Public Administration and Human Resources",
+      "B Admin: Public Administration and Political Science",
+      "B Com (Accounting and Economics) 3 years",
+      "B Com (Accounting and Economics) 4 years",
+      "B Com (Accounting) 4 years",
+      "B Com (Banking and Business Management) 3 years",
+      "B Com (Banking and Business Management) 4 years",
+      "B Com (Business Management and Accounting) 3 years",
+      "B Com (Business Management and Accounting) 4 years",
+      "B Com (Business Management and Economics) 3 years",
+      "B Com (Business Management and Economics) 4 years",
+      "B Com (Business Management and Human Resource Management) 4 years",
+      "B Com (Economics and Banking) 3 years",
+      "B Com (Economics and Banking) 4 years",
+      "B Com (Economics and Human Resource Management) 3 years",
+      "B Com (Economics and Human Resources Management) 4 years",
+      "B Com (Human Resource Management and Business Management) 3 years",
+      "B Com (Management Information Systems) 3 years",
+      "B Com (Management Information Systems) 4 years",
+      "B Com Accounting Science",
+      "B Com in Accounting",
+      "B Laws",
+      "Dip Co-Operatives Management",
+      "Dip Logistics Management",
+      "Dip Transport Management",
+      "H Cert Accountancy"
+    ]
+  },
+  {
+    "faculty": "Faculty of Education",
+    "programmes": [
+      "Bachelor of Education in Foundation Phase Teaching",
+      "Bachelor of Education in Intermediate Phase Teaching: Languages and Humanities",
+      "Bachelor of Education in Intermediate Phase Teaching: Languages, Maths, Natural Science & Technology"
+    ]
+  },
+  {
+    "faculty": "Faculty of Humanities and Social Sciences",
+    "programmes": [
+      "B A Environmental Planning & Development",
+      "B A in Intercultural Communication",
+      "Diploma in Media Studies",
+      "B A Correctional Studies",
+      "B A Industrial Sociology",
+      "B A (Anthropology & History)",
+      "B A (Geography & History)",
+      "B A (Geography & Tourism)",
+      "B A (History & IsiZulu)",
+      "B A (Linguistics & English)",
+      "B A (Philosophy & Psychology)",
+      "BA in Psychology",
+      "BA in Drama, Theatre and Performance",
+      "Diploma in Public Relations Management",
+      "B A Development Studies",
+      "B A Information Science",
+      "B Library & Information Science",
+      "B Social Work",
+      "B A Sociology",
+      "Bachelor of Social Sciences in Political and International Studies",
+      "B Tourism Studies",
+      "Diploma in Tourism Management"
+    ]
+  }
+]

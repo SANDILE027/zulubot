@@ -1,0 +1,2153 @@
+[
+    {
+        "programme": "4BSC01 APPLIED MATHEMATICS AND COMPUTER SCIENCE FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Mathematical Sciences And Computer Science",
+        "qualification": "Bachelor Of Science",
+        "major": "Applied Mathematics Computer Science",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 60,
+                "level": 5
+            },
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Physical Science Or Info",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC02 APPLIED MATHEMATICS AND HYDROLOGY FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Mathematical Sciences And Hydrology",
+        "qualification": "Bachelor Of Science",
+        "major": "Applied Mathematics Hydrology",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 60,
+                "level": 5
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC03 APPLIED MATHEMATICS AND MATHEMATICS FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Mathematical Sciences",
+        "qualification": "Bachelor Of Science",
+        "major": "Applied Mathematics Mathematics",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 60,
+                "level": 5
+            },
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Physical Science Or",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC04 APPLIED MATHEMATICS AND PHYSICS FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Mathematical Sciences And Physics & Engineering",
+        "qualification": "Bachelor Of Science",
+        "major": "Applied Mathematics Physics",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 60,
+                "level": 5
+            },
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC05 APPLIED MATHEMATICS AND STATISTICS FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Mathematical Sciences",
+        "qualification": "Bachelor Of Science",
+        "major": "Applied Mathematics Statistics",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 60,
+                "level": 5
+            },
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Physical Science Or Info",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC06 BIOCHEMISTRY AND BOTANY FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Biochemistry & Microbiology And Botany",
+        "qualification": "Bachelor Of Science",
+        "major": "Biochemistry Botany",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC07 BIOCHEMISTRY AND CHEMISTRY FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Biochemistry & Microbiology And Chemistry",
+        "qualification": "Bachelor Of Science",
+        "major": "Biochemistry Chemistry",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 60,
+                "level": 5
+            },
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC08 BIOCHEMISTRY AND HUMAN MOVEMENT SCIENCE FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science",
+        "qualification": "Bachelor Of Science",
+        "major": "Biochemistry Human Movement Science",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC09 BIOCHEMISTRY AND MICROBIOLOGY FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Biochemistry & Microbiology",
+        "qualification": "Bachelor Of Science",
+        "major": "Biochemistry Microbiology",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC10 BIOCHEMISTRY AND ZOOLOGY FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Biochemistry & Microbiology And Zoology",
+        "qualification": "Bachelor Of Science",
+        "major": "Biochemistry Zoology",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC11 BOTANY AND GEOGRAPHY FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Botany And Geography",
+        "qualification": "Bachelor Of Science",
+        "major": "Botany Geography",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Geography",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC12 BOTANY AND HYDROLOGY FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Botany And Hydrology",
+        "qualification": "Bachelor Of Science",
+        "major": "Botany Hydrology",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC13 BOTANY AND MICROBIOLOGY FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Botany And Biochemmistry & Microbiology",
+        "qualification": "Bachelor Of Science",
+        "major": "Botany Microbiology",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC14 BOTANY AND ZOOLOGY FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Botany And Zoology",
+        "qualification": "Bachelor Of Science",
+        "major": "Botany Zoology",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC15 CHEMISTRY AND COMPUTER SCIENCE FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Chemistry And Computer Science",
+        "qualification": "Bachelor Of Science",
+        "major": "Chemistry Computer Science",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 60,
+                "level": 5
+            },
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC16 CHEMISTRY AND HYDROLOGY FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Chemistry And Hydrology",
+        "qualification": "Bachelor Of Science",
+        "major": "Chemistry Hydrology",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 60,
+                "level": 5
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC17 CHEMISTRY AND MATHEMATICS FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Chemistry And Mathematical Sciences",
+        "qualification": "Bachelor Of Science",
+        "major": "Chemistry Mathematics",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 60,
+                "level": 5
+            },
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC18 CHEMISTRY AND PHYSICS FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Chemistry And Physics & Engineering",
+        "qualification": "Bachelor Of Science",
+        "major": "Chemistry Physics",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 60,
+                "level": 5
+            },
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC19 CHEMISTRY AND ZOOLOGY FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Degree(Designator) Bachelor Of Science",
+        "qualification": "Bachelor Of Science",
+        "major": "Chemistry Zoology",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 60,
+                "level": 5
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC20 COMPUTER SCIENCE AND HYDROLOGY FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Hydrology And Computer Science",
+        "qualification": "Bachelor Of Science",
+        "major": "Computer Science Hydrology",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 60,
+                "level": 5
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC21 COMPUTER SCIENCE AND MATHEMATICS FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Computer Science And Mathematical Sciences",
+        "qualification": "Bachelor Of Science",
+        "major": "Computer Science Mathematics",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 60,
+                "level": 5
+            },
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC22 COMPUTER SCIENCE AND PHYSICS FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Computer Science And Physics & Engineering",
+        "qualification": "Bachelor Of Science",
+        "major": "Computer Science Physics",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 60,
+                "level": 5
+            },
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC23 COMPUTER SCIENCE AND STATISTICS FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Computer Science And Mathematical Sciences",
+        "qualification": "Bachelor Of Science",
+        "major": "Computer Science Statistics",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 60,
+                "level": 5
+            },
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Physical Science Or",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC24 GEOGRAPHY AND HYDROLOGY FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Geography And Hydrology",
+        "qualification": "Bachelor Of Science",
+        "major": "Geography Hydrology",
+        "aps_required": null,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Geography",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC25 GEOGRAPHY AND PHYSICS FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Geography And Physics & Engineering",
+        "qualification": "Bachelor Of Science",
+        "major": "Geography Physics",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Geography",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 60,
+                "level": 5
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC26 GEOGRAPHY AND STATISTICS FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Geography And Mathematical Sciences",
+        "qualification": "Bachelor Of Science",
+        "major": "Geography Statistics",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Geography",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 60,
+                "level": 5
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC27 GEOGRAPHY AND ZOOLOGY FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Geography And Zoology",
+        "qualification": "Bachelor Of Science",
+        "major": "Geography Zoology",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC28 HUMAN MOVEMENT SCIENCE AND PHYSICS FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Human Movement Science And Physics & Engineering",
+        "qualification": "Bachelor Of Science",
+        "major": "Human Movement Science Physics",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 60,
+                "level": 5
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC29 HUMAN MOVEMENT SCIENCE AND ZOOLOGY",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Human Movement Science And Zoology",
+        "qualification": "Bachelor Of Science",
+        "major": "Human Movement Science Zoology",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC30 HYDROLOGY AND MICROBIOLOGY FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Hydrology And Biochemistry & Microbiology",
+        "qualification": "Bachelor Of Science",
+        "major": "Hydrology Microbiology",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC31 HYDROLOGY AND PHYSICS FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Hydrology And Physics & Engineering",
+        "qualification": "Bachelor Of Science",
+        "major": "Hydrology Physics",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 60,
+                "level": 5
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC32 HYDROLOGY AND STATISTICS FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Hydrology And Mathematical Sciences",
+        "qualification": "Bachelor Of Science",
+        "major": "Hydrology Statistics",
+        "aps_required": null,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 60,
+                "level": 5
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC33 HYDROLOGY AND ZOOLOGY FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Hydrology And Zoology",
+        "qualification": "Bachelor Of Science",
+        "major": "Hydrology Zoology",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC34 MATHEMATICS AND PHYSICS FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Mathematical Sciences And Physics & Engineering",
+        "qualification": "Bachelor Of Science",
+        "major": "Mathematics Physics",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 60,
+                "level": 5
+            },
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC35 MATHEMATICS AND STATISTICS FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Mathematical Sciences",
+        "qualification": "Bachelor Of Science",
+        "major": "Mathematics Statistics",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 60,
+                "level": 5
+            },
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Physical Science Or Info",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC36 MICROBIOLOGY AND ZOOLOGY FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Biochemistry & Microbiology And Zoology",
+        "qualification": "Bachelor Of Science",
+        "major": "Microbiology Zoology",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4BSC37 MICROBIOLOGY AND HUMAN MOVEMENT SCIENCE FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science",
+        "qualification": "Bachelor Of Science",
+        "major": "Microbiology Human Movement Science",
+        "aps_required": 28,
+        "duration_years": 3,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 50,
+                "level": 4
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 50,
+                "level": 4
+            }
+        ]
+    },
+    {
+        "programme": "4FBS01 APPLIED MATHEMATICS AND COMPUTER SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Applied Mathematics Computer Science",
+        "aps_required": 28,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS02 APPLIED MATHEMATICS AND HYDROLOGY",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Applied Mathematics Hydrology",
+        "aps_required": 28,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS03 APPLIED MATHEMATICS AND MATHEMATICS",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Applied Mathematics Mathematics",
+        "aps_required": 28,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS04 APPLIED MATHEMATICS AND PHYSICS",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Applied Mathematics Physics",
+        "aps_required": 28,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS06 BIOCHEMISTRY AND BOTANY",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Biochemistry Botany",
+        "aps_required": 28,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS07 BIOCHEMISTRY AND CHEMISTRY",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Biochemistry Chemistry",
+        "aps_required": 28,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS08 BIOCHEMISTRY AND HUMAN MOVEMENT SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Biochemistry Human Movement Science",
+        "aps_required": 28,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS09 BIOCHEMISTRY AND MICROBIOLOGY",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Biochemistry Microbiology",
+        "aps_required": 28,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS10 BIOCHEMISTRY AND ZOOLOGY",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Biochemistry Zoology",
+        "aps_required": 28,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Sciences",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS11 BOTANY AND GEOGRAPHY",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Botany Geography",
+        "aps_required": 28,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Sciences",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Geography",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS12 BOTANY AND HYDROLOGY",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Botany Hydrology",
+        "aps_required": 28,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS13 BOTANY AND MICROBIOLOGY",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Botany Microbiology",
+        "aps_required": 28,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS14 BOTANY AND ZOOLOGY",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Botany Zoology",
+        "aps_required": 28,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS15 CHEMISTRY AND COMPUTER SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Chemistry Computer Science",
+        "aps_required": 28,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS16 CHEMISTRY AND HYDROLOGY",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Chemistry Hydrology",
+        "aps_required": 28,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS17 CHEMISTRY AND MATHEMATICS",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Chemistry Mathematics",
+        "aps_required": 28,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS18 CHEMISTRY AND PHYSICS",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Chemistry Physics",
+        "aps_required": 28,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS19 CHEMISTRY AND ZOOLOGY",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Chemistry Zoology",
+        "aps_required": 28,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS20 COMPUTER SCIENCE AND HYDROLOGY",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Computer Science Hydrology",
+        "aps_required": 28,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS21 COMPUTER SCIENCE AND MATHEMATICS",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Computer Science Mathematics",
+        "aps_required": 28,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS22 COMPUTER SCIENCE AND PHYSICS",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Computer Science Physics",
+        "aps_required": 28,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS23 COMPUTER SCIENCE AND STATISTICS",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Computer Science Statistics",
+        "aps_required": 28,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS24 GEOGRAPHY AND HYDROLOGY",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Geography Hydrology",
+        "aps_required": null,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Geography",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS25 GEOGRAPHY AND PHYSICS",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Geography Physics",
+        "aps_required": 28,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Geography",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS26 GEOGRAPHY AND STATISTICS",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Geography Statistics",
+        "aps_required": 28,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Geography",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS27 GEOGRAPHY AND ZOOLOGY",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Geography Zoology",
+        "aps_required": 28,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS28 HUMAN MOVEMENT SCIENCE AND PHYSICS",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Human Movement Science Physics",
+        "aps_required": 28,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS30 HYDROLOGY AND MICROBIOLOGY",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Hydrology Microbiology",
+        "aps_required": 28,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS31 HYDROLOGY AND PHYSICS",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Hydrology Physics",
+        "aps_required": 28,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS32 HYDROLOGY AND STATISTICS FACULTY FACULTY OF SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Hydrology Statistics",
+        "aps_required": null,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS33 HYDROLOGY AND ZOOLOGY",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Hydrology Zoology",
+        "aps_required": 28,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS34 MATHEMATICS AND PHYSICS",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Mathematics Physics",
+        "aps_required": 28,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS35 MATHEMATICS AND STATISTICS",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Mathematics Statistics",
+        "aps_required": 28,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS36 MICROBIOLOGY AND ZOOLOGY",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Microbiology Zoology",
+        "aps_required": 28,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FBS37 MICROBIOLOGY AND HUMAN MOVEMENT SCIENCE",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": "Microbiology Human Movement Science",
+        "aps_required": 28,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Science",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 40,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "programme": "4FSC17 CHEMISTRY AND MATHEMATICS",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": null,
+        "aps_required": null,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Sciences",
+                "percentage": 30,
+                "level": 2
+            }
+        ]
+    },
+    {
+        "programme": "4FSC18 CHEMISTRY AND PHYSICS",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": null,
+        "aps_required": null,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Sciences",
+                "percentage": 30,
+                "level": 2
+            }
+        ]
+    },
+    {
+        "programme": "4FSC19 CHEMISTRY AND ZOOLOGY",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": null,
+        "aps_required": null,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Sciences",
+                "percentage": 30,
+                "level": 2
+            }
+        ]
+    },
+    {
+        "programme": "4FSC34 MATHEMATICS AND PHYSICS",
+        "faculty": "FACULTY OF SCIENCE, AGRICULTURE AND ENGINEERING",
+        "department": "Science Access",
+        "qualification": "Bachelor Of Science",
+        "major": null,
+        "aps_required": null,
+        "duration_years": 4,
+        "admission_requirements": [
+            {
+                "subject": "Mathematics",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "English",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Life Sciences",
+                "percentage": 40,
+                "level": 3
+            },
+            {
+                "subject": "Physical Sciences",
+                "percentage": 30,
+                "level": 2
+            }
+        ]
+    }
+]

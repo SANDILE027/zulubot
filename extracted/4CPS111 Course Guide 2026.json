@@ -1,0 +1,37 @@
+{
+  "source": "4CPS111 Course Guide 2026.pdf",
+  "module_title": "Introductory Computing",
+  "module_code": "4CPS111",
+  "module_credits": "16",
+  "level_of_study": "1st",
+  "notional_hours": "160",
+  "nqf_level": "5",
+  "prerequisites": "NOT SPECIFIED",
+  "lecturers": [
+    "Ms Z. Magubane",
+    "Teaching Assistants"
+  ],
+  "module_outcomes": [
+    "Identify the basic elements of hardware and explain their functions and how they fit together to form an architecture",
+    "Explain how data is represented, manipulated and stored within a computer system",
+    "Develop basic computational thinking by learning to reason with variables, conditionals and",
+    "Analyze and explain the behavior of simple programs involving the fundamental programming constructs, variables, expressions, assignments, I/O, control constructs, functions, parameter passing, and objects",
+    "Design, implement, test, and debug programs that use fundamental programming constructs such as: basic computation, simple I/O, standard conditional and iterative structures, methods, and parameter passing.",
+    "Demonstrate a practical knowledge of using problem solving techniques and describe the useful rules for ensuring success in debugging"
+  ],
+  "assessment_activities": [
+    {
+      "raw_row": "ASSIGNMENT COVER SHEET"
+    },
+    {
+      "raw_row": "Assignment"
+    }
+  ],
+  "contact_emails": [
+    "magubanez@unizulu.ac.za"
+  ],
+  "consultation_times": "in the table below. While we welcome your feedback, it should be remembered that courses cannot be tailored to individual preferences. Activity Monday Friday 09:30am – 12:30am Consultation 10:30am – 12:30am",
+  "module_purpose": "The purpose of this course is to provide the beginning computing student with an insight of how computers work. This will be done in two stages. Firstly, we will explore the underlying components of a computer and the way they carry out processes and instructions then look at using programming code to instruct a computer. Emphasis will be put on the application of computer programming not only in success stories in the software industry but also in familiar scenarios in physical and biological science, business, engineering, and applied mathematics. Students will learn algorithmic problem-solving, coding, and debugging techniques. Students will write programs to solve simple problems drawn from a wide range of disciplines, primarily in the sciences and business. Zero computing background is assumed.",
+  "prescribed_readings": [],
+  "recommended_readings": []
+}

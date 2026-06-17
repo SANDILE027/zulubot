@@ -1,0 +1,38 @@
+{
+  "source": "Learner guide for SSTT1224STT122.pdf",
+  "module_title": "Elementary Statistics for Commerce Students",
+  "module_code": "4STT122/SSTT122",
+  "module_credits": "16",
+  "level_of_study": "First",
+  "notional_hours": "160",
+  "nqf_level": "6",
+  "prerequisites": "are the modules: None\nLecturer’s expectations:",
+  "lecturers": [
+    "Mr M. Sithole",
+    "Mr S. Sibiya",
+    "Mr M. Lala"
+  ],
+  "module_outcomes": [
+    "Recognize and apply some common probability distributions, and assess if underlying assumptions for the distribution seem reasonable.",
+    "Be able to perform basic statistical calculations and graphical analyses.",
+    "Analyse research questions based on statistical data, draw relevant conclusions, and be familiar with the limitations of particular statistical"
+  ],
+  "assessment_activities": [
+    {
+      "raw_row": "descriptive statistics, probability theory, estimation, and hypothesis testing. It will be"
+    },
+    {
+      "raw_row": "given examples of statistical applications from other topics relevant to health"
+    }
+  ],
+  "contact_emails": [
+    "SibiyaSI@unizulu.ac.za",
+    "LalaM@unizulu.ac.za",
+    "SitholeMT@unizulu.ac.za",
+    "ZibaniO@unizulu.ac.za"
+  ],
+  "consultation_times": "Days of the week Times Venues Wednesday 11h30 – 14h20 SC101 Wednesday 14h30 – 17h20 SC101 Thursday 14h30 – 17h20 LT-02 Friday 13h30 – 16h20 NE26, SC101, SC106",
+  "module_purpose": "This module introduces commerce students to elementary concept of descriptive and inferential statistics.",
+  "prescribed_readings": [],
+  "recommended_readings": []
+}

@@ -1,0 +1,150 @@
+[
+  {
+    "topic": "Documents Required for Registration",
+    "keywords": ["documents for registration", "required documents", "registration documents", "register documents", "upload documents"],
+    "content": [
+      {
+        "section": "Essential Documents for All Students",
+        "items": [
+          "Identity Document (certified)",
+          "Certified copy of final statement of results or equivalent OR Certified copy of National Senior Certificate or equivalent",
+          "Proof of residence (e.g., municipality statement, letter from local Inkosi)"
+        ],
+        "note": "You will NOT be given admittance to REGISTER unless you have uploaded the 3 ESSENTIAL documents."
+      },
+      {
+        "section": "Optional Documents",
+        "items": [
+          "Firm offer letter",
+          "Proof of registration fee deposit"
+        ]
+      },
+      {
+        "section": "Additional Requirements for International Students",
+        "items": [
+          "SAQA Evaluation (must bring original)",
+          "Foreign Conditional Exemption Certificate (must bring original)",
+          "Valid passport (must bring original)",
+          "Valid study permit (must bring original)",
+          "Asylum seekers: Section 22 Permit compliance",
+          "Refugees: Section 24 Permit or maroon ID",
+          "Proof of financial means (bank statement, bursaries, cash available/travelers' cheque to cover living expenses and tuition fees)",
+          "Proof of medical insurance"
+        ],
+        "notes": [
+          "International students must bring along original documents when they come to the University.",
+          "All international students must be in possession of a valid study permit and valid medical aid before registration.",
+          "No extension of registration permitted without a study permit.",
+          "To obtain a study permit, submit admission letter and medical aid proof to Department of Home Affairs."
+        ]
+      },
+      {
+        "section": "Important Advice for International Students",
+        "items": [
+          "Approach South African Embassy in home country for information before coming to South Africa.",
+          "Visit Department of Home Affairs website: www.dha.gov.za"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Common Admission and Registration Queries",
+    "keywords": ["admission queries", "registration queries", "application status", "firm offer", "waiting for decision", "minimum requirements", "blocked registration", "financial block"],
+    "content": [
+      {
+        "section": "Registration Schedule - First Year Students 2025",
+        "items": [
+          "Time: 08h00 to 16h00",
+          "Starts: Monday, 27 January 2025",
+          "Ends: Friday, 31 January 2025"
+        ]
+      },
+      {
+        "section": "Application Status Queries",
+        "query": "I have a 'Waiting for a decision' or 'Conditional offer' status or I want to know my application status.",
+        "solutions": [
+          "Visit the Central Applications Office (CAO) website at www.cao.ac.za",
+          "Contact the CAO at 031 268 4400",
+          "Contact the relevant faculty (see contact details in the table below)."
+        ]
+      },
+      {
+        "section": "Minimum Admissions Requirements",
+        "query": "I do not meet the Minimum Admissions Requirements (MAR) or have upgraded my results or re-ranked my choices.",
+        "solutions": [
+          "Contact the relevant Faculty if you now meet the minimum admission requirements after upgrading or re-ranking your choices.",
+          "The relevant Faculty will re-assess your application."
+        ]
+      },
+      {
+        "section": "Firm Offer and Document Upload Queries",
+        "query": "Acceptance of FIRM OFFER and UPLOADING OF DOCUMENTS enquiries.",
+        "solutions": [
+          "Contact Call Centre: 035 902 6030",
+          "Visit the University website at www.unizulu.ac.za for details on accepting the FIRM OFFER and uploading documents."
+        ]
+      },
+      {
+        "section": "Biographical Information Correction",
+        "query": "My biographical information is incorrect.",
+        "solutions": [
+          "Update your biographical details on iEnabler.",
+          "Access iEnabler using your PIN code and student number."
+        ]
+      },
+      {
+        "section": "Financial Blockage",
+        "query": "My registration has been blocked for financial reasons.",
+        "solutions": [
+          "Contact Finance on 035 902 6290."
+        ]
+      },
+      {
+        "section": "Module Registration Issues",
+        "query": "Some modules do not appear on my proof of registration.",
+        "solutions": [
+          "Consult the Student Administration Section."
+        ]
+      },
+      {
+        "section": "General Assistance",
+        "note": "If you experience any challenges with accepting offers, uploading documents, or registration, visit https://forms.gle/Q94Mw9171L9WEK866 and log your issue. An officer will assist you."
+      }
+    ]
+  },
+  {
+    "topic": "Student Services Information",
+    "keywords": ["student housing", "student cards", "orientation", "student services", "guidance", "counselling"],
+    "content": [
+      {
+        "section": "Student Housing for Registered First Year Students",
+        "items": [
+          "The University has a limited number of bedspaces on its campuses.",
+          "Students not accommodated in campus housing should seek alternative accommodation elsewhere.",
+          "Paying an upfront initial deposit for student residence does not guarantee room allocation.",
+          "Residence applications are received through the i-Enabler system.",
+          "Further details will follow in due course."
+        ],
+        "contact": "Mrs. T Mnguni – Student Housing (035 902 6179)."
+      },
+      {
+        "section": "Student Cards",
+        "items": [
+          "You must get a student card once registered.",
+          "2025 student cards can be collected from the Student Card Office on your campus.",
+          "Required: Proof of Registration and ID."
+        ]
+      },
+      {
+        "section": "Orientation of First Year Students",
+        "items": [
+          "Organized by Student Services Department – Guidance and Counselling Section and the Teaching and Learning Centre (TLC).",
+          "An informative and mandatory orientation program.",
+          "Starts on the first day you arrive on campus and continues until you settle in.",
+          "Students are urged not to miss orientation week.",
+          "See the table below for orientation dates and venues."
+        ]
+      }
+    ]
+  }
+]

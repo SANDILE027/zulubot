@@ -1,0 +1,41 @@
+{
+  "source": "4AAG211_StudentGuide_2026.pdf",
+  "module_title": "Introduction to Soil Science",
+  "module_code": "4AAG211",
+  "module_credits": "16",
+  "level_of_study": "2nd year",
+  "notional_hours": "160",
+  "nqf_level": "6",
+  "prerequisites": "NOT SPECIFIED",
+  "lecturers": [
+    "Ms. S.J. Mnembe"
+  ],
+  "module_outcomes": [
+    "Analyse the importance of soils and explain soil classification and formation.",
+    "Interpret soil physical and chemical properties and relate them to crop production and environmental function.",
+    "Analyse how soil organisms and soil organic matter contribute to soil properties and nutrient cycling.",
+    "Explain the movement and uptake of plant nutrients and evaluate nutrient management",
+    "Evaluate soil degradation processes and propose soil and water conservation measures, including erosion control."
+  ],
+  "assessment_activities": [],
+  "contact_emails": [
+    "MnembeS@unizulu.ac.za",
+    "PhakathiR@unizulu.ac.za"
+  ],
+  "consultation_times": "Days of the week Times Venues Tuesdays* 11h30 – 13h20* AL13* *Any changes will be communicated",
+  "module_purpose": "The purpose of this module is to equip learners with the knowledge and understanding of soils in relation to their ability to sustain plant growth, while developing the applied competence required to interpret soil information for land management and production contexts. Since the module serves a multidisciplinary cohort (Agronomy, Agribusiness, Animal Science, Hydrology, and Geography), it focuses on soil science concepts that can be applied across crop production, grazing systems, catchment and water management, and land evaluation.",
+  "prescribed_readings": [],
+  "recommended_readings": [
+    "Brady, N. C., & Weil, R. R. (2008). The nature and properties of soils (14th ed.). Pearson Prentice Hall. (KwaDlangezwa Library Available, On Shelf; 631.4 BRA)",
+    "Coyne, M. S., & Thompson, J. A. (2006). Fundamental soil science. Thomson Delmar",
+    "Learning. (KwaDlangezwa Library Available, On Shelf; 631.4 COY)",
+    "Fey, M. (2010). Soils of South Africa. Cambridge University Press. (KwaDlangezwa Library Available, On Shelf; 631.4968 FEY)",
+    "Jones Jr, J.B. (2012). Plant nutrition and soil fertility manual. CRC Press. (KwaDlangezwa Library Available on Shelf 631.422 JON)",
+    "Soil Classification Working Group. (2018). Soil Classification: A Natural and Anthropogenic System for South Africa. ARC, Pretoria.",
+    "Turner, D. P., Booyens, H. B., Clarke, C., Plessis, M. J., Ellis, F., Koch, J., Le Roux, P.,",
+    "Paterson, D. G., Waals, J. H., Deventer, P. W., van Tol, J. J., Zijl, G. M., & Verster, E. (2018). Soil Classification, A Natural and Anthropogenic System for South Africa.",
+    "van Huyssteen, C. (2020). Relating the South African Soil Taxonomy to the World Reference Base for Soil Resources. Bloemfontein: Soil Science Society of South Africa.",
+    "van Zijl, G. M., Ellis, F., & du Plessis, M. J. (2020). The new soil classification system in South Africa: Its history, important changes made, and implications for users. South African Journal of Plant and Soil, 37(4), pp. 245–256.",
+    "Verster, E., du Plessis, M. J., & Schoeman, J. L. (2022)."
+  ]
+}

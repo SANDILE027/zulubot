@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>UniZulu Portal + Assistant</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body, html { margin: 0; padding: 0; height: 100%; font-family: 'Segoe UI', Arial, sans-serif; }
+    iframe#portal { width: 100%; height: 100%; border: none; display: block; }
+
+    /* FAB */
+    #chatbot-btn {
+      position: fixed; bottom: 28px; right: 28px;
+      background: linear-gradient(135deg, #003366, #00254d);
+      color: white; border: none; border-radius: 50px;
+      padding: 13px 20px; font-size: 14px; font-weight: 700;
+      cursor: pointer; box-shadow: 0 4px 18px rgba(0,51,102,0.45);
+      z-index: 1000; display: flex; align-items: center; gap: 8px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    #chatbot-btn:hover { transform: scale(1.05); box-shadow: 0 6px 24px rgba(0,51,102,0.55); }
+    .fab-dot { width:8px; height:8px; background:#C8960C; border-radius:50%; animation: pulse 2s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.5;transform:scale(1.5)} }
+
+    /* Floating nudge */
+    #floating-msg {
+      position: fixed; bottom: 84px; right: 28px;
+      background: linear-gradient(135deg,#003366,#00254d);
+      color: #fff; padding: 13px 16px; border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,.3); z-index: 1000;
+      max-width: 260px; font-size: 13px; line-height: 1.5;
+      animation: float 3s ease-in-out infinite;
+    }
+    #floating-msg::after {
+      content:''; position:absolute; bottom:-9px; right:26px;
+      border-width:9px 9px 0; border-style:solid;
+      border-color:#003366 transparent transparent;
+    }
+    @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-5px)} }
+
+    /* Panel */
+    #panel {
+      position: fixed; bottom: 76px; right: 28px;
+      width: 430px; height: 630px; border-radius: 16px;
+      box-shadow: 0 10px 44px rgba(0,0,0,.24); display: none;
+      z-index: 1000; background: #F0F4FA;
+      overflow: hidden; flex-direction: column;
+    }
+
+    /* Header */
+    .ph {
+      background: linear-gradient(135deg,#00254d,#003366);
+      color: #fff; padding: 13px 14px 0; flex-shrink: 0;
+    }
+    .ph-top { display:flex; align-items:center; justify-content:space-between; margin-bottom:11px; }
+    .logo-mark {
+      width:36px; height:36px; background:#C8960C; border-radius:7px;
+      display:flex; align-items:center; justify-content:center;
+      font-weight:900; font-size:13px; color:#00254d; letter-spacing:.5px;
+    }
+    .logo-text strong { font-size:14px; display:block; }
+    .logo-text span   { font-size:10px; opacity:.7; letter-spacing:1px; text-transform:uppercase; }
+    .close-btn {
+      background:rgba(255,255,255,.15); border:none; color:#fff;
+      width:28px; height:28px; border-radius:50%; font-size:14px;
+      cursor:pointer; display:flex; align-items:center; justify-content:center;
+    }
+    .close-btn:hover { background:rgba(255,255,255,.3); }
+
+    /* Tabs */
+    .tabs { display:flex; }
+    .tab {
+      flex:1; padding:10px 6px; background:transparent; border:none;
+      color:rgba(255,255,255,.55); font-size:11px; font-weight:700;
+      cursor:pointer; border-bottom:3px solid transparent;
+      text-transform:uppercase; letter-spacing:.4px;
+      display:flex; align-items:center; justify-content:center; gap:4px;
+      transition:color .2s, border-color .2s;
+    }
+    .tab.active { color:#fff; border-bottom-color:#C8960C; }
+    .badge {
+      background:#C8960C; color:#00254d; border-radius:20px;
+      font-size:10px; font-weight:800; padding:1px 6px;
+    }
+
+    /* Panels */
+    .tp { display:none; flex:1; flex-direction:column; min-height:0; overflow:hidden; }
+    .tp.active { display:flex; }
+
+    /* ── CHAT ── */
+    .chat-box {
+      flex:1; padding:12px; overflow-y:auto; background:#F0F4FA;
+    }
+    .chat-foot { flex-shrink:0; }
+    .suggestions {
+      display:flex; flex-wrap:wrap; gap:5px;
+      padding:6px 10px; background:#e8edf4;
+    }
+    .chip {
+      background:#fff; border:1.5px solid #D0DDE8; border-radius:14px;
+      padding:4px 11px; cursor:pointer; font-size:11px; font-weight:600;
+      color:#003366; transition:all .15s;
+    }
+    .chip:hover { background:#003366; color:#fff; border-color:#003366; }
+    .chat-input-row {
+      display:flex; padding:10px; background:#e8edf4; gap:6px;
+    }
+    .chat-input {
+      flex:1; padding:9px 12px; border-radius:8px;
+      border:1.5px solid #D0DDE8; font-size:13px;
+      background:#fff; color:#1A2B3C; outline:none;
+    }
+    .chat-input:focus { border-color:#003366; }
+    .send-btn,.mute-btn {
+      background:#003366; border:none; color:#fff;
+      padding:0 13px; border-radius:8px; cursor:pointer;
+      font-size:13px; font-weight:600; flex-shrink:0;
+    }
+    .mute-btn.muted { background:#C8960C; }
+    .msg { display:flex; margin-bottom:9px; align-items:flex-end; gap:6px; }
+    .msg.user { flex-direction:row-reverse; }
+    .av {
+      width:28px; height:28px; border-radius:50%; font-size:14px;
+      display:flex; align-items:center; justify-content:center; flex-shrink:0;
+    }
+    .av.bot  { background:#003366; }
+    .av.user { background:#C8960C; }
+    .bub { padding:9px 12px; border-radius:14px; max-width:75%; font-size:13px; line-height:1.5; }
+    .bub.bot  { background:#fff; color:#1A2B3C; border-bottom-left-radius:4px; box-shadow:0 1px 4px rgba(0,0,0,.08); }
+    .bub.user { background:#003366; color:#fff; border-bottom-right-radius:4px; }
+    .dots span {
+      display:inline-block; width:6px; height:6px; margin:0 2px;
+      background:#999; border-radius:50%; animation:blink 1.4s infinite both;
+    }
+    .dots span:nth-child(2){animation-delay:.2s} .dots span:nth-child(3){animation-delay:.4s}
+    @keyframes blink { 0%,80%,100%{opacity:0} 40%{opacity:1} }
+
+    /* ── FINDER ── */
+    .finder-scroll { flex:1; overflow-y:auto; padding:14px; background:#F0F4FA; }
+
+    .aps-card {
+      background:linear-gradient(135deg,#00254d,#003366);
+      border-radius:12px; padding:13px 15px; margin-bottom:13px;
+      display:flex; align-items:center; gap:13px; color:#fff;
+    }
+    .aps-num { font-size:46px; font-weight:900; line-height:1; }
+    .aps-right { flex:1; }
+    .aps-lbl { font-size:10px; opacity:.65; letter-spacing:1px; text-transform:uppercase; margin-bottom:2px; }
+    .aps-bar-bg { background:rgba(255,255,255,.2); border-radius:4px; height:5px; margin-top:6px; }
+    .aps-bar    { height:5px; border-radius:4px; transition:width .5s, background .5s; }
+
+    .fl { display:block; font-size:11px; font-weight:700; color:#5A6E82; text-transform:uppercase; letter-spacing:.5px; margin-bottom:5px; }
+    .fsel {
+      width:100%; padding:9px 10px; border-radius:8px;
+      border:1.5px solid #D0DDE8; font-size:13px;
+      background:#fff; color:#1A2B3C; outline:none; margin-bottom:11px;
+    }
+    .fsel:focus { border-color:#003366; }
+
+    .srow { display:flex; gap:5px; align-items:center; margin-bottom:7px; }
+    .srow .fsel { margin:0; }
+    .srow .fsel:first-child { flex:1; }
+    .srow .fsel:nth-child(2){ width:68px; flex-shrink:0; }
+    .rm-btn {
+      width:28px; height:34px; border:1.5px solid #D0DDE8; background:#fff;
+      border-radius:7px; color:#5A6E82; cursor:pointer; font-size:12px;
+      display:flex; align-items:center; justify-content:center; flex-shrink:0;
+    }
+    .add-btn {
+      width:100%; padding:8px; background:transparent;
+      border:1.5px dashed #003366; border-radius:8px;
+      color:#003366; font-size:12px; font-weight:700; cursor:pointer; margin-top:2px;
+    }
+    .add-btn:hover { background:#003366; color:#fff; }
+    .find-btn {
+      width:100%; padding:13px; background:linear-gradient(135deg,#003366,#00254d);
+      color:#fff; border:none; border-radius:10px; font-size:15px;
+      font-weight:700; cursor:pointer; margin-top:11px;
+      box-shadow:0 4px 14px rgba(0,51,102,.3); transition:transform .15s;
+    }
+    .find-btn:hover { transform:translateY(-1px); }
+
+    /* Results */
+    .back-btn {
+      background:none; border:none; color:#5A6E82; font-size:12px;
+      font-weight:700; cursor:pointer; padding:0 0 11px;
+      display:flex; align-items:center; gap:4px;
+    }
+    .summary {
+      background:#00254d; border-radius:10px; padding:11px 14px;
+      display:flex; margin-bottom:13px; color:#fff;
+    }
+    .si { flex:1; display:flex; flex-direction:column; align-items:center; gap:1px; }
+    .si-num { font-size:26px; font-weight:900; line-height:1; }
+    .si-lbl { font-size:10px; opacity:.6; letter-spacing:.5px; text-transform:uppercase; }
+    .sd { width:1px; background:rgba(255,255,255,.15); }
+
+    .sec-lbl { font-size:11px; font-weight:700; color:#5A6E82; text-transform:uppercase; letter-spacing:.5px; margin:12px 0 7px; }
+
+    /* Result card */
+    .rcard {
+      background:#fff; border-radius:10px; margin-bottom:8px;
+      border:1.5px solid #D0DDE8;
+      box-shadow:0 1px 4px rgba(0,0,0,.05);
+    }
+    .rcard.q { border-color:#1B7A4B; box-shadow:0 2px 10px rgba(27,122,75,.10); }
+    .rcard-head {
+      padding:11px 12px; cursor:pointer;
+      display:flex; justify-content:space-between; align-items:flex-start; gap:7px;
+    }
+    .rcard-head:hover { background:#F8FAFE; }
+    .ctags { display:flex; flex-wrap:wrap; gap:4px; margin-bottom:4px; }
+    .tag {
+      font-size:10px; font-weight:700; padding:2px 8px;
+      border-radius:20px; text-transform:uppercase; letter-spacing:.4px;
+    }
+    .tg { background:#E6F5ED; color:#1B7A4B; }
+    .tr { background:#FDECEA; color:#C0392B; }
+    .ty { background:#FEF9E7; color:#8B6800; }
+    .tb { background:#EAF0FB; color:#003366; }
+    .tm { background:#f0f0f0; color:#5A6E82; }
+    .pname { font-weight:700; font-size:13px; color:#003366; }
+    .pmeta { font-size:11px; color:#5A6E82; margin-top:2px; }
+    .chev  { font-size:11px; color:#5A6E82; flex-shrink:0; }
+
+    .cbody { padding:0 12px 11px; border-top:1px solid #D0DDE8; display:none; }
+    .csec  { margin-top:9px; }
+    .cslbl { font-size:10px; font-weight:700; color:#5A6E82; text-transform:uppercase; letter-spacing:.4px; margin-bottom:4px; }
+    .rrow  { display:flex; align-items:center; gap:5px; font-size:12px; margin-bottom:3px; color:#1A2B3C; }
+    .rdet  { color:#5A6E82; }
+    .schips { display:flex; flex-wrap:wrap; gap:4px; }
+    .schip  { background:#EAF0FB; color:#003366; border:1px solid #D0DDE8; border-radius:20px; font-size:10px; padding:2px 8px; }
+    .alert  { border-radius:7px; padding:8px 10px; font-size:12px; margin-top:8px; background:#FDECEA; color:#C0392B; }
+    .ask-btn {
+      width:100%; margin-top:9px; padding:8px;
+      background:#003366; color:#fff; border:none;
+      border-radius:7px; font-size:12px; font-weight:700;
+      cursor:pointer; display:flex; align-items:center; justify-content:center; gap:5px;
+    }
+    .ask-btn:hover { background:#00254d; }
+    .show-all-btn {
+      width:100%; padding:10px; background:transparent;
+      border:1.5px solid #D0DDE8; border-radius:10px;
+      font-size:12px; color:#5A6E82; cursor:pointer; font-weight:600; margin-top:4px;
+    }
+    .no-match { background:#FDECEA; border:1px solid #C0392B; border-radius:9px; padding:12px; font-size:13px; color:#C0392B; margin-bottom:10px; }
+    .info-note { background:#EAF0FB; border-radius:9px; padding:11px 13px; font-size:11px; color:#5A6E82; line-height:1.6; margin-top:13px; }
+    .info-note a { color:#003366; }
+
+  /* ── MODULES TAB ── */
+  .mod-search-wrap { padding:14px 14px 8px; }
+  .mod-search-row  { display:flex; gap:6px; }
+  .mod-search-inp  {
+    flex:1; padding:9px 12px; border-radius:8px;
+    border:1.5px solid #D0DDE8; font-size:13px;
+    background:#fff; color:#1A2B3C; outline:none;
+  }
+  .mod-search-inp:focus { border-color:#003366; }
+  .mod-search-btn {
+    background:#003366; border:none; color:#fff;
+    padding:0 14px; border-radius:8px; font-size:13px;
+    font-weight:700; cursor:pointer; flex-shrink:0;
+  }
+  .mod-lang-row { display:flex; gap:6px; margin-top:8px; }
+  .mod-lang-btn {
+    flex:1; padding:6px; border-radius:7px; font-size:11px;
+    font-weight:700; text-align:center; cursor:pointer;
+    border:1.5px solid #D0DDE8; background:#fff; color:#003366;
+    transition:all .15s;
+  }
+  .mod-lang-btn.active { background:#003366; color:#fff; border-color:#003366; }
+  .mod-q-chips { display:flex; flex-wrap:wrap; gap:5px; padding:0 14px 10px; }
+  .mod-q-chip {
+    background:#EAF0FB; border:1px solid #D0DDE8; border-radius:14px;
+    padding:4px 11px; cursor:pointer; font-size:11px; font-weight:600;
+    color:#003366; transition:all .15s;
+  }
+  .mod-q-chip:hover { background:#003366; color:#fff; }
+  .mod-result-area { flex:1; overflow-y:auto; padding:0 14px 14px; }
+  .mod-result-card {
+    background:#fff; border-radius:10px;
+    border:1.5px solid #003366;
+    padding:12px 14px; line-height:1.6; font-size:13px;
+    color:#1A2B3C; white-space:pre-wrap;
+  }
+  .mod-empty {
+    text-align:center; padding:40px 20px;
+    font-size:13px; color:#5A6E82; line-height:1.7;
+  }
+  .mod-list { display:flex; flex-direction:column; gap:7px; margin-top:10px; }
+  .mod-list-item {
+    background:#fff; border:0.5px solid #D0DDE8; border-radius:8px;
+    padding:9px 12px; cursor:pointer; transition:border-color .15s;
+    display:flex; justify-content:space-between; align-items:center;
+  }
+  .mod-list-item:hover { border-color:#003366; }
+  .mod-list-code { font-size:11px; font-weight:700; color:#003366; }
+  .mod-list-title { font-size:12px; color:#1A2B3C; margin-top:1px; }
+  .mod-list-level { font-size:10px; color:#5A6E82; }
+  .mod-list-lang { font-size:10px; background:#E6F1FB; color:#003366; padding:1px 7px; border-radius:20px; }
+    .loading-msg { text-align:center; padding:20px; color:#5A6E82; font-size:13px; }
+  .mchip {
+    background:#EAF0FB; border:1.5px solid #D0DDE8; border-radius:14px;
+    padding:5px 11px; cursor:pointer; font-size:11px; font-weight:600;
+    color:#003366; transition:all .15s; white-space:nowrap;
+  }
+  .mchip:hover { background:#003366; color:#fff; border-color:#003366; }
+  .mod-result-card {
+    background:#fff; border-radius:10px; border:1.5px solid #003366;
+    padding:12px 13px; font-size:12px; line-height:1.7; color:#1A2B3C;
+  }
+  .mod-result-card strong { color:#003366; }
+  .mod-result-card code {
+    background:#EAF0FB; padding:1px 5px; border-radius:4px; font-size:11px;
+  }
+  .mod-list-card {
+    background:#fff; border:0.5px solid #D0DDE8; border-radius:8px;
+    padding:9px 11px; cursor:pointer; display:flex;
+    justify-content:space-between; align-items:center;
+    transition:border-color .15s;
+  }
+  .mod-list-card:hover { border-color:#003366; }
+  </style>
+</head>
+<body>
+
+<iframe id="portal" src="https://jasper.unizulu.ac.za/pls/prodi41/w99pkg.mi_login"></iframe>
+
+<div id="floating-msg">
+  🎓 <strong>Programme Finder</strong><br>
+  Check which UniZulu programmes you qualify for!
+</div>
+
+<button id="chatbot-btn">
+  <div class="fab-dot"></div>
+  💬 UniZulu Assistant
+</button>
+
+<!-- ═══ PANEL ═══ -->
+<div id="panel">
+
+  <!-- Header -->
+  <div class="ph">
+    <div class="ph-top">
+      <div style="display:flex;align-items:center;gap:9px">
+        <div class="logo-mark">UZ</div>
+        <div class="logo-text">
+          <strong>UniZulu Assistant</strong>
+          <span>Registration &amp; Admissions</span>
+        </div>
+      </div>
+      <button class="close-btn" id="close-btn">✕</button>
+    </div>
+    <div class="tabs">
+      <button class="tab active" data-tab="chat">💬 Chat</button>
+      <button class="tab" data-tab="finder" id="finder-tab">
+        🎓 Programme Finder
+        <span class="badge" id="q-badge" style="display:none"></span>
+      </button>
+      <button class="tab" data-tab="modules">
+        📖 Modules
+      </button>
+    </div>
+  </div>
+
+  <!-- CHAT TAB -->
+  <div class="tp active" id="tp-chat">
+    <div class="chat-box" id="chat-box"></div>
+    <div class="chat-foot">
+      <div class="suggestions" id="suggestions"></div>
+      <div class="chat-input-row">
+        <input class="chat-input" id="user-input" placeholder="Ask me anything…" autocomplete="off">
+        <button class="send-btn" onclick="sendMsg()">Send</button>
+        <button class="mute-btn" id="mute-btn">🔈</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- FINDER TAB -->
+  <div class="tp" id="tp-finder">
+    <div class="finder-scroll" id="finder-scroll">
+
+      <!-- Step 1: input -->
+      <div id="step1">
+        <div class="aps-card">
+          <div>
+            <div class="aps-lbl">Your APS</div>
+            <div class="aps-num" id="aps-num">0</div>
+          </div>
+          <div class="aps-right">
+            <div style="font-size:12px;opacity:.8;margin-bottom:5px">Most programmes need <strong>22–30</strong> APS</div>
+            <div class="aps-bar-bg"><div class="aps-bar" id="aps-bar" style="width:0%;background:#C0392B"></div></div>
+            <div style="font-size:10px;opacity:.55;margin-top:4px">out of ~42 points</div>
+          </div>
+        </div>
+
+        <label class="fl">Filter by Faculty (optional)</label>
+        <select class="fsel" id="fac-filter">
+          <option value="">All Faculties</option>
+          <option value="education">Faculty of Education</option>
+          <option value="commerce">Faculty of Commerce, Administration &amp; Law</option>
+          <option value="humanities">Faculty of Humanities &amp; Social Sciences</option>
+          <option value="science">Faculty of Science, Agriculture &amp; Engineering</option>
+        </select>
+
+        <label class="fl">Your Matric Subjects &amp; Achievement Levels</label>
+        <div style="font-size:11px;color:#5A6E82;margin-bottom:9px;line-height:1.5">
+          NSC levels: 1 (0–29%) · 2 (30–39%) · 3 (40–49%) · 4 (50–59%) · 5 (60–69%) · 6 (70–79%) · 7 (80–100%)
+        </div>
+        <div id="srows"></div>
+        <button class="add-btn" onclick="addRow()">+ Add Subject</button>
+        <button class="find-btn" onclick="runFinder()">Find My Programmes →</button>
+      </div>
+
+      <!-- Step 2: results -->
+      <div id="step2" style="display:none">
+        <button class="back-btn" onclick="goStep(1)">← Edit Subjects</button>
+        <div class="summary" id="summary"></div>
+        <div id="results"></div>
+        <div class="info-note">
+          📌 This is an indication only. Final admission is subject to UniZulu's official policies and available spaces.
+          Visit <a href="https://www.unizulu.ac.za" target="_blank">unizulu.ac.za</a> for official applications.
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ── MODULES TAB ── -->
+  <div class="tp" id="tp-modules" style="flex-direction:column;">
+
+    <!-- Top: module search -->
+    <div style="padding:12px 12px 0;flex-shrink:0;">
+
+      <!-- Module code / name search -->
+      <div style="display:flex;gap:6px;margin-bottom:8px;">
+        <input id="mod-code-inp" placeholder="Module code (e.g. 4AAG211)…"
+          style="flex:1;padding:9px 11px;border-radius:8px;border:1.5px solid #D0DDE8;
+                 font-size:12px;background:#fff;color:#1A2B3C;outline:none;"
+          autocomplete="off">
+        <button onclick="runModSearch()"
+          style="background:#003366;border:none;color:#fff;padding:0 13px;
+                 border-radius:8px;font-size:12px;font-weight:700;cursor:pointer;flex-shrink:0;">
+          Find
+        </button>
+      </div>
+
+      <!-- Language toggle -->
+      <div style="display:flex;gap:6px;margin-bottom:10px;" id="mod-lang-row" style="display:none">
+        <button id="mod-lang-en" onclick="setModLang('en')"
+          style="flex:1;padding:6px;border-radius:7px;font-size:11px;font-weight:700;
+                 background:#003366;color:#fff;border:1.5px solid #003366;cursor:pointer;">
+          🇿🇦 English
+        </button>
+        <button id="mod-lang-zu" onclick="setModLang('zu')"
+          style="flex:1;padding:6px;border-radius:7px;font-size:11px;font-weight:700;
+                 background:#fff;color:#003366;border:1.5px solid #D0DDE8;cursor:pointer;">
+          🇿🇦 IsiZulu
+        </button>
+      </div>
+
+      <!-- Quick question chips (shown after module found) -->
+      <div id="mod-chips" style="display:none;flex-wrap:wrap;gap:5px;margin-bottom:8px;">
+        <button class="mchip" onclick="askModQ('What are the learning outcomes?')">📚 Outcomes</button>
+        <button class="mchip" onclick="askModQ('Who is the lecturer?')">👩‍🏫 Lecturer</button>
+        <button class="mchip" onclick="askModQ('What is the assessment?')">📝 Assessment</button>
+        <button class="mchip" onclick="askModQ('When are consultation times?')">🕐 Consultation</button>
+        <button class="mchip" onclick="askModQ('What books do I need?')">📖 Readings</button>
+        <button class="mchip" onclick="askModQ('What are the module credits?')">📊 Credits</button>
+      </div>
+
+      <!-- Free-text question input (shown after module found) -->
+      <div id="mod-ask-row" style="display:none;gap:6px;margin-bottom:10px;">
+        <input id="mod-question-inp" placeholder="Ask anything about this module…"
+          style="flex:1;padding:8px 11px;border-radius:8px;border:1.5px solid #D0DDE8;
+                 font-size:12px;background:#fff;color:#1A2B3C;outline:none;"
+          autocomplete="off">
+        <button onclick="askModFreeText()"
+          style="background:#C8960C;border:none;color:#fff;padding:0 12px;
+                 border-radius:8px;font-size:12px;font-weight:700;cursor:pointer;flex-shrink:0;">
+          Ask
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Result area -->
+    <div id="mod-result" style="flex:1;overflow-y:auto;padding:0 12px 12px;">
+      <div id="mod-empty-state" style="text-align:center;padding:30px 16px;color:#5A6E82;font-size:13px;line-height:1.8;">
+        📖 Search for a module above<br>
+        <span style="font-size:11px;">
+          Enter a <strong>module code</strong> like <code style="background:#EAF0FB;padding:1px 5px;border-radius:4px;">4AAG211</code><br>
+          or a <strong>module name</strong> like <code style="background:#EAF0FB;padding:1px 5px;border-radius:4px;">Soil Science</code>
+        </span>
+        <!-- Module list loaded from /modules -->
+        <div id="mod-list" style="text-align:left;margin-top:14px;display:flex;flex-direction:column;gap:6px;"></div>
+      </div>
+      <div id="mod-answer" style="display:none;"></div>
+    </div>
+
+  </div>
+
+</div><!-- /panel -->
+
+<script>
+// ═══════════════════════════════════════════════════════
+//  CONFIG
+// ═══════════════════════════════════════════════════════
+const API = 'http://localhost:5000';
+
+const ALL_SUBJECTS = [
+  'Mathematics','Mathematical Literacy','Physical Science','Life Sciences',
+  'Geography','History','English (HL)','English (FAL)','IsiZulu (HL)','IsiZulu (FAL)',
+  'Accounting','Business Studies','Economics','Information Technology',
+  'Computer Applications Technology','Tourism','Agricultural Sciences',
+  'Life Orientation','Consumer Studies','Dramatic Arts','Music','Visual Arts',
+];
+
+// ═══════════════════════════════════════════════════════
+//  PANEL / TAB TOGGLE
+// ═══════════════════════════════════════════════════════
+const fab       = document.getElementById('chatbot-btn');
+const panelEl   = document.getElementById('panel');
+const floatMsg  = document.getElementById('floating-msg');
+const closeBtn  = document.getElementById('close-btn');
+let chatLoaded  = false;
+
+fab.addEventListener('click', () => {
+  const opening = panelEl.style.display !== 'flex';
+  panelEl.style.display = opening ? 'flex' : 'none';
+  if (opening) {
+    floatMsg.style.display = 'none';
+    if (!chatLoaded) { loadWelcome(); chatLoaded = true; }
+  }
+});
+closeBtn.addEventListener('click', () => { panelEl.style.display = 'none'; });
+
+document.querySelectorAll('.tab').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.tp').forEach(p => p.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('tp-' + btn.dataset.tab).classList.add('active');
+  });
+});
+
+function switchToChat() {
+  document.querySelectorAll('.tab').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tp').forEach(p => p.classList.remove('active'));
+  document.querySelector('[data-tab="chat"]').classList.add('active');
+  document.getElementById('tp-chat').classList.add('active');
+}
+
+// ═══════════════════════════════════════════════════════
+//  CHAT
+// ═══════════════════════════════════════════════════════
+const chatBox   = document.getElementById('chat-box');
+const suggEl    = document.getElementById('suggestions');
+const muteBtn   = document.getElementById('mute-btn');
+let muted = false;
+
+muteBtn.addEventListener('click', () => {
+  muted = !muted;
+  muteBtn.textContent = muted ? '🔇' : '🔈';
+  muteBtn.classList.toggle('muted', muted);
+});
+
+function addMsg(sender, html) {
+  const w = document.createElement('div');
+  w.className = 'msg ' + sender;
+  w.innerHTML = `<div class="av ${sender}">${sender==='bot'?'🤖':'👤'}</div>
+                 <div class="bub ${sender}">${fmt(html)}</div>`;
+  chatBox.appendChild(w);
+  chatBox.scrollTop = chatBox.scrollHeight;
+  if (sender === 'bot' && !muted) speak(html);
+}
+
+function speak(t) {
+  if (!window.speechSynthesis) return;
+  const u = new SpeechSynthesisUtterance(t.replace(/<[^>]+>/g,'').replace(/\n/g,' '));
+  u.lang = 'en-GB'; u.rate = 1;
+  speechSynthesis.cancel(); speechSynthesis.speak(u);
+}
+
+function fmt(t) {
+  t = t.replace(/\[youtube:(.*?)\]/g,(_,u)=>`<iframe width="100%" height="180" src="${u}" frameborder="0" allowfullscreen></iframe>`);
+  t = t.replace(/\[link:(.*?)\|(.*?)\]/g,(_,u,l)=>`<a href="${u}" target="_blank">${l}</a>`);
+  t = t.replace(/\*\*(.*?)\*\*/g,'<strong>$1</strong>');
+  t = t.replace(/\n/g,'<br>');
+  return t;
+}
+
+function showSugg(list) {
+  suggEl.innerHTML = '';
+  (list||[]).forEach(s => {
+    const b = document.createElement('button');
+    b.className = 'chip'; b.textContent = s;
+    b.onclick = () => sendMsg(s);
+    suggEl.appendChild(b);
+  });
+}
+
+function showTyping() {
+  const d = document.createElement('div');
+  d.id = 'typing'; d.className = 'msg bot';
+  d.innerHTML = `<div class="av bot">🤖</div>
+    <div class="bub bot"><div class="dots"><span></span><span></span><span></span></div></div>`;
+  chatBox.appendChild(d); chatBox.scrollTop = chatBox.scrollHeight;
+}
+function hideTyping() { const el=document.getElementById('typing'); if(el)el.remove(); }
+
+function loadWelcome() {
+  showTyping();
+  fetch(`${API}/welcome`)
+    .then(r=>r.json())
+    .then(d=>{ hideTyping(); addMsg('bot',d.reply); showSugg(d.suggestions); })
+    .catch(()=>{ hideTyping(); addMsg('bot','👋 Hi! I\'m the UniZulu Assistant. Ask about registration, exams, or programmes.'); });
+}
+
+// ── Exam mode ─────────────────────────────────────────
+let examMode = false;
+
+function activateExamMode() {
+  examMode = true;
+  const wrap = document.createElement('div');
+  wrap.className = 'msg bot';
+  wrap.id = 'exam-prompt-card';
+  wrap.innerHTML = `
+    <div class="av bot">🤖</div>
+    <div class="bub bot" style="max-width:90%;line-height:1.6">
+      📅 <strong>Exam Timetable Lookup</strong><br><br>
+      Type your <strong>module code</strong> or <strong>module name</strong>
+      and I'll show the date, time, venue and room.<br><br>
+      <span style="font-size:11px;color:#5A6E82">
+        Examples: <code>4MTH271</code> · <code>Advanced Calculus</code> · <code>Communication Studies</code>
+      </span>
+    </div>`;
+  chatBox.appendChild(wrap);
+  chatBox.scrollTop = chatBox.scrollHeight;
+  const inp = document.getElementById('user-input');
+  inp.placeholder = '🔍 Enter module code or name…';
+  inp.focus();
+  suggEl.innerHTML = '';
+}
+
+function deactivateExamMode() {
+  examMode = false;
+  document.getElementById('user-input').placeholder = 'Ask me anything…';
+  const card = document.getElementById('exam-prompt-card');
+  if (card) card.remove();
+}
+
+function sendMsg(userMsg=null) {
+  const inp = document.getElementById('user-input');
+  const msg = userMsg || inp.value.trim();
+  if (!msg) return;
+
+  // "Check my exam" chip → activate exam mode, don't send yet
+  if ((msg === 'Check my exam' || msg === 'Check another exam') && !examMode) {
+    activateExamMode();
+    return;
+  }
+
+  addMsg('user', msg);
+  inp.value = '';
+  suggEl.innerHTML = '';
+  showTyping();
+
+  const isExamSearch = examMode || /\b(exam|timetable|when is my|when does)\b/i.test(msg);
+  const endpoint = isExamSearch ? `${API}/exam` : `${API}/get_response`;
+  const body     = isExamSearch
+    ? JSON.stringify({ query: msg })
+    : JSON.stringify({ message: msg });
+
+  if (examMode) deactivateExamMode();
+
+  fetch(endpoint, { method:'POST', headers:{'Content-Type':'application/json'}, body })
+    .then(r=>r.json())
+    .then(d=>{
+      hideTyping();
+      const reply = d.reply || (d.found ? d.formatted.join('\n\n---\n\n') : d.message);
+      addMsg('bot', reply);
+      showSugg(d.suggestions || (d.found
+        ? ['Check another exam','registration','contact support']
+        : ['Check another exam','registration']));
+    })
+    .catch(()=>{ hideTyping(); addMsg('bot','❌ Something went wrong. Please try again.'); });
+}
+
+document.getElementById('user-input').addEventListener('keypress', e => { if(e.key==='Enter') sendMsg(); });
+
+// ═══════════════════════════════════════════════════════
+//  FINDER — subject rows
+// ═══════════════════════════════════════════════════════
+let rows = [
+  {name:'English (HL)', level:''},
+  {name:'', level:''},
+  {name:'', level:''},
+];
+
+function renderRows() {
+  const c = document.getElementById('srows');
+  c.innerHTML = '';
+  rows.forEach((r,i) => {
+    const div = document.createElement('div');
+    div.className = 'srow';
+
+    const sel1 = document.createElement('select'); sel1.className='fsel';
+    sel1.innerHTML = '<option value="">-- Subject --</option>' +
+      ALL_SUBJECTS.map(s=>`<option${s===r.name?' selected':''}>${s}</option>`).join('');
+    sel1.onchange = e => { rows[i].name=e.target.value; recalc(); };
+
+    const sel2 = document.createElement('select'); sel2.className='fsel'; sel2.style.width='68px';
+    sel2.innerHTML = '<option value="">Lvl</option>' +
+      [1,2,3,4,5,6,7].map(l=>`<option${l==r.level?' selected':''}>${l}</option>`).join('');
+    sel2.onchange = e => { rows[i].level=e.target.value; recalc(); };
+
+    const rm = document.createElement('button'); rm.className='rm-btn'; rm.textContent='✕';
+    rm.onclick = () => { rows.splice(i,1); renderRows(); recalc(); };
+
+    div.appendChild(sel1); div.appendChild(sel2); div.appendChild(rm);
+    c.appendChild(div);
+  });
+}
+
+function addRow() {
+  if (rows.length >= 8) return;
+  rows.push({name:'',level:''}); renderRows();
+}
+
+function recalc() {
+  let total = 0;
+  rows.forEach(r => {
+    const l = parseInt(r.level)||0;
+    if (!r.name||!l) return;
+    total += r.name==='Life Orientation' ? Math.min(l,4) : l;
+  });
+  document.getElementById('aps-num').textContent = total;
+  const pct = Math.min((total/42)*100,100);
+  const bar = document.getElementById('aps-bar');
+  bar.style.width = pct+'%';
+  bar.style.background = total>=26?'#1B7A4B':total>=22?'#C8960C':'#C0392B';
+  return total;
+}
+
+// ═══════════════════════════════════════════════════════
+//  FINDER — call backend /recommend
+// ═══════════════════════════════════════════════════════
+let lastResults = null;
+let showAll = false;
+
+function runFinder() {
+  const filled = rows.filter(r=>r.name&&r.level);
+  if (filled.length < 3) { alert('Please enter at least 3 subjects with levels.'); return; }
+  const aps = recalc();
+  const faculty = document.getElementById('fac-filter').value;
+
+  // Show loading
+  goStep(2);
+  document.getElementById('results').innerHTML = '<div class="loading-msg">⏳ Matching your results against all programmes…</div>';
+  document.getElementById('summary').innerHTML = '';
+
+  fetch(`${API}/recommend`, {
+    method:'POST', headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({ subjects: filled, aps, faculty })
+  })
+    .then(r=>r.json())
+    .then(data => {
+      lastResults = data; showAll = false;
+      renderResults(data);
+    })
+    .catch(() => {
+      // Fallback: run match client-side if backend not yet running
+      document.getElementById('results').innerHTML =
+        '<div class="no-match">⚠️ Could not reach the backend. Start Flask with <code>python app.py</code> and refresh.</div>';
+    });
+}
+
+function renderResults(data) {
+  const { aps, qualified, almost, others, counts } = data;
+
+  // Badge on finder tab
+  const badge = document.getElementById('q-badge');
+  badge.textContent = counts.qualified;
+  badge.style.display = counts.qualified > 0 ? 'inline' : 'none';
+
+  // Summary strip
+  document.getElementById('summary').innerHTML = `
+    <div class="si"><span class="si-num" style="color:#C8960C">${aps}</span><span class="si-lbl">APS</span></div>
+    <div class="sd"></div>
+    <div class="si"><span class="si-num" style="color:#1B7A4B">${counts.qualified}</span><span class="si-lbl">Qualifies</span></div>
+    <div class="sd"></div>
+    <div class="si"><span class="si-num" style="color:#C8960C">${almost.length}</span><span class="si-lbl">Almost</span></div>
+    <div class="sd"></div>
+    <div class="si"><span class="si-num" style="color:#5A6E82">${counts.total}</span><span class="si-lbl">Total</span></div>
+  `;
+
+  const cont = document.getElementById('results');
+  cont.innerHTML = '';
+
+  if (counts.qualified === 0) {
+    cont.innerHTML += `<div class="no-match">⚠️ No programmes fully matched your results. Check the "Almost There" section — some need just a few more points.</div>`;
+  }
+
+  if (qualified.length > 0) {
+    cont.innerHTML += `<div class="sec-lbl">✅ Programmes You Qualify For (${qualified.length})</div>`;
+    qualified.forEach(r => cont.appendChild(makeCard(r)));
+  }
+
+  if (almost.length > 0) {
+    cont.innerHTML += `<div class="sec-lbl">🔶 Almost There — Within 5 APS (${almost.length})</div>`;
+    almost.forEach(r => cont.appendChild(makeCard(r)));
+  }
+
+  if (others.length > 0 && !showAll) {
+    const btn = document.createElement('button');
+    btn.className = 'show-all-btn';
+    btn.textContent = `Show all ${counts.total} programmes`;
+    btn.onclick = () => { showAll=true; renderResults(data); };
+    cont.appendChild(btn);
+  } else if (showAll && others.length > 0) {
+    cont.innerHTML += `<div class="sec-lbl">📋 Other Programmes</div>`;
+    others.forEach(r => cont.appendChild(makeCard(r)));
+  }
+}
+
+function makeCard(r) {
+  const q = r.qualifies;
+  const gap = r.aps_gap;
+  const apsUnknown = r.aps_unknown;
+  const card = document.createElement('div');
+  card.className = 'rcard' + (q?' q':'');
+
+  let qualTag;
+  if (apsUnknown) {
+    qualTag = '<span class="tag tm">📋 Check Faculty</span>';
+  } else if (q) {
+    qualTag = '<span class="tag tg">✓ Qualifies</span>';
+  } else if (gap<=5) {
+    qualTag = `<span class="tag ty">Gap: ${Math.abs(gap)} APS</span>`;
+  } else {
+    qualTag = `<span class="tag tr">Gap: ${Math.abs(gap)} APS</span>`;
+  }
+
+  const facShort = (r.faculty||'').split(' ').slice(-1)[0];
+  const selTag   = r.selection_test ? '<span class="tag tr">Selection Test</span>' : '';
+  const nqfTag   = `<span class="tag tm">NQF ${r.nqf||7}</span>`;
+
+  const reqHtml = (r.subject_checks||[]).map(c=>`
+    <div class="rrow">
+      <span>${c.ok?'✅':'❌'}</span>
+      <span>${c.required}</span>
+      <span class="rdet">(need L${c.min_level}, you have L${c.student_level||0})</span>
+    </div>`).join('');
+
+  const streamsHtml = r.streams&&r.streams.length ? `
+    <div class="csec">
+      <div class="cslbl">Streams</div>
+      <div class="schips">${r.streams.map(s=>`<span class="schip">${s}</span>`).join('')}</div>
+    </div>` : '';
+
+  const alertHtml = !q && gap>0 ? `
+    <div class="alert">⚠️ You need <strong>${gap} more APS point${gap>1?'s':''}</strong> to qualify.</div>` : '';
+
+  // Escape for onclick attribute
+  const safeName = (r.programme||'').replace(/'/g,"\\'");
+  const safeCode = (r.code||'').replace(/'/g,"\\'");
+
+  card.innerHTML = `
+    <div class="rcard-head" onclick="toggleCard(this)">
+      <div style="flex:1">
+        <div class="ctags">${qualTag}<span class="tag tb">${facShort}</span>${nqfTag}${selTag}</div>
+        <div class="pname">${r.programme}</div>
+        <div class="pmeta">${r.duration||3} yr${(r.duration||3)>1?'s':''} · ${r.qualification||'Degree'} · Min APS: ${apsUnknown ? 'Contact faculty' : r.aps}</div>
+      </div>
+      <span class="chev">▼</span>
+    </div>
+    <div class="cbody">
+      <div class="csec">
+        <div class="cslbl">Subject Requirements</div>
+        ${reqHtml}
+      </div>
+      ${streamsHtml}
+      ${alertHtml}
+      <button class="ask-btn" onclick="askAbout('${safeName}','${safeCode}')">
+        💬 Ask about this programme
+      </button>
+    </div>`;
+
+  return card;
+}
+
+function toggleCard(head) {
+  const body = head.nextElementSibling;
+  const chev = head.querySelector('.chev');
+  const open = body.style.display === 'block';
+  body.style.display = open ? 'none' : 'block';
+  chev.textContent   = open ? '▼' : '▲';
+}
+
+// ── Ask about → fires into chat ───────────────────────
+function askAbout(name, code) {
+  switchToChat();
+  const q = `Tell me more about the ${name} (${code}): what are the career prospects, what does the curriculum cover, and how do I apply?`;
+  sendMsg(q);
+}
+
+// ── Step navigation ───────────────────────────────────
+function goStep(n) {
+  document.getElementById('step1').style.display = n===1?'block':'none';
+  document.getElementById('step2').style.display = n===2?'block':'none';
+  document.getElementById('finder-scroll').scrollTop = 0;
+}
+
+// ── Init ──────────────────────────────────────────────
+renderRows();
+
+// ══════════════════════════════════════════════════════════════════════════════
+//  MODULES TAB
+// ══════════════════════════════════════════════════════════════════════════════
+
+let currentModCode = null;
+let currentModLang = 'en';
+
+function setModLang(lang) {
+  currentModLang = lang;
+  const enBtn = document.getElementById('mod-lang-en');
+  const zuBtn = document.getElementById('mod-lang-zu');
+  enBtn.style.background = lang==='en' ? '#003366' : '#fff';
+  enBtn.style.color      = lang==='en' ? '#fff'    : '#003366';
+  enBtn.style.borderColor= lang==='en' ? '#003366' : '#D0DDE8';
+  zuBtn.style.background = lang==='zu' ? '#003366' : '#fff';
+  zuBtn.style.color      = lang==='zu' ? '#fff'    : '#003366';
+  zuBtn.style.borderColor= lang==='zu' ? '#003366' : '#D0DDE8';
+  if (currentModCode) {
+    askModQ(lang==='zu' ? 'Ngixoxe ngaleli module' : 'General overview of this module');
+  }
+}
+
+function runModSearch() {
+  const q = document.getElementById('mod-code-inp').value.trim();
+  if (!q) return;
+  showModLoading();
+  fetch(`${API}/module_qa`, {
+    method:'POST', headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({module:q, question:'general overview', language:currentModLang})
+  })
+  .then(r=>r.json())
+  .then(d=>{
+    if (d.found) {
+      currentModCode = d.module_code || q;
+      showModControls(true);
+      showModAnswer(d.answer);
+    } else {
+      currentModCode = null;
+      showModControls(false);
+      showModAnswer(d.answer, true);
+    }
+  })
+  .catch(()=>showModAnswer('❌ Could not connect. Make sure app.py is running.', true));
+}
+
+function askModQ(question) {
+  if (!currentModCode) return;
+  showModLoading();
+  fetch(`${API}/module_qa`, {
+    method:'POST', headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({module:currentModCode, question, language:currentModLang})
+  })
+  .then(r=>r.json())
+  .then(d=>showModAnswer(d.answer))
+  .catch(()=>showModAnswer('❌ Something went wrong.', true));
+}
+
+function askModFreeText() {
+  const q = document.getElementById('mod-question-inp').value.trim();
+  if (!q || !currentModCode) return;
+  document.getElementById('mod-question-inp').value = '';
+  showModLoading();
+  fetch(`${API}/module_qa`, {
+    method:'POST', headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({module:currentModCode, question:q, language:currentModLang})
+  })
+  .then(r=>r.json())
+  .then(d=>showModAnswer(d.answer))
+  .catch(()=>showModAnswer('❌ Something went wrong.', true));
+}
+
+function showModControls(show) {
+  document.getElementById('mod-chips').style.display  = show ? 'flex' : 'none';
+  document.getElementById('mod-ask-row').style.display = show ? 'flex' : 'none';
+  document.getElementById('mod-lang-row').style.display = show ? 'flex' : 'none';
+}
+
+function showModLoading() {
+  document.getElementById('mod-empty-state').style.display = 'none';
+  const ans = document.getElementById('mod-answer');
+  ans.style.display = 'block';
+  ans.innerHTML = '<div style="text-align:center;padding:20px;color:#5A6E82;font-size:13px;">⏳ Loading...</div>';
+}
+
+function showModAnswer(text, isError=false) {
+  document.getElementById('mod-empty-state').style.display = 'none';
+  const ans = document.getElementById('mod-answer');
+  ans.style.display = 'block';
+  const fmt = (text||'')
+    .replace(/\*\*(.*?)\*\*/g,'<strong>$1</strong>')
+    .replace(/`([^`]+)`/g,'<code style="background:#EAF0FB;padding:1px 5px;border-radius:4px;font-size:11px">$1</code>')
+    .replace(/_([^_]+)_/g,'<em>$1</em>')
+    .replace(/\n---\n/g,'<hr style="border:none;border-top:1px solid #eee;margin:8px 0">')
+    .replace(/\n/g,'<br>');
+  ans.innerHTML = `<div class="mod-result-card" style="${isError?'border-color:#C0392B;background:#FDECEA;':''}">${fmt}</div>`;
+}
+
+function loadModuleList() {
+  fetch(`${API}/modules`)
+    .then(r=>r.json())
+    .then(mods=>{
+      const list = document.getElementById('mod-list');
+      if (!list||!mods.length) return;
+      list.innerHTML = '<div style="font-size:11px;font-weight:700;color:#5A6E82;text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px;">Available Modules</div>'
+        + mods.slice(0,12).map(m=>`
+          <div class="mod-list-card" onclick="selectMod('${m.code}')">
+            <div>
+              <div style="font-size:11px;font-weight:700;color:#003366;">${m.code}</div>
+              <div style="font-size:11px;color:#1A2B3C;margin-top:1px;">${m.title}</div>
+              <div style="font-size:10px;color:#5A6E82;">${m.level||''}</div>
+            </div>
+            <span style="font-size:10px;background:#E6F1FB;color:#003366;padding:2px 7px;border-radius:20px;flex-shrink:0;">
+              ${m.language==='isizulu'?'IsiZulu':'EN'}
+            </span>
+          </div>`).join('');
+      if (mods.length>12) {
+        list.innerHTML += `<div style="font-size:11px;color:#5A6E82;text-align:center;padding:6px;">...and ${mods.length-12} more. Search by code above.</div>`;
+      }
+    }).catch(()=>{});
+}
+
+function selectMod(code) {
+  document.getElementById('mod-code-inp').value = code;
+  runModSearch();
+}
+
+document.getElementById('mod-code-inp')?.addEventListener('keypress', e=>{if(e.key==='Enter') runModSearch();});
+document.getElementById('mod-question-inp')?.addEventListener('keypress', e=>{if(e.key==='Enter') askModFreeText();});
+
+loadModuleList();
+
+</script>
+</body>
+</html>

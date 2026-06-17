@@ -1,0 +1,29 @@
+{
+  "source": "4STT211-Learner Guide 2025.pdf",
+  "module_title": "Distribution Theory",
+  "module_code": "NOT FOUND",
+  "module_credits": "16",
+  "level_of_study": "2",
+  "notional_hours": "160",
+  "nqf_level": "5",
+  "prerequisites": "NOT SPECIFIED",
+  "lecturers": [
+    "Mr M.W Kubheka"
+  ],
+  "module_outcomes": [
+    "Recap on counting methods, discrete random variable, and continuous random variable.",
+    "Joint Distribution.",
+    "Multiple random variables.",
+    "Limit theorem and Convergence of Random Variable.",
+    "Moment Generating Function."
+  ],
+  "assessment_activities": [],
+  "contact_emails": [
+    "KubhekaM@unizulu.ac.za",
+    "ZibaniO@unizulu.ac.za"
+  ],
+  "consultation_times": "2 Days of the week Times Venues XXXXXXX XXXXXXX XXXXXX XXXXXXX XXXXXXX XXXXXX",
+  "module_purpose": "The purpose of probability, statistics and random variable lies in providing systematic tools for quantifying uncertainty and variability in different fields. Probability enables the modeling and assessment of uncertainty by assigning numerical measures to the likelihood of events. Statistics on the other hand is crucial for drawing inferences from data and making informed decision in the presence of uncertainty. It involves techniques for collecting, analyzing, interpreting, presenting, and organizing information. Random variables serve as mathematical representation of uncertainty outcomes allowing for the characterization of randomness and the formulation of probability distribution. Together probability, statistics, and random variables provide a foundation for making rational decisions, predicting outcomes, and gaining insights into inherent variability of phenomena across various domains, including science, engineering, economics and social science.",
+  "prescribed_readings": [],
+  "recommended_readings": []
+}
